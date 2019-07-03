@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>前端面试</title>
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <script>
+    window.$docsify = {
+      name: "frontend-interview",
+      repo: "https://github.com/azl397985856/frontend-interview",
+      maxLevel: 3,
+      search: {
+        paths: ["/", "/topics"],
+        placeholder: {
+        '/zh-cn/': '搜索',
+        '/': 'Type to search'
+      },
+      },
+      markdown: {
+        renderer: {
+          link: function(href, ...rest) {
+            if (href.slice(-3) === ".js") {
+              return this.origin.link.call(this, href.slice(0, -3), ...rest);
+            }
+
+            return this.origin.link.call(this, href, ...rest);
+          }
+        }
+      }
+    };
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+</html>

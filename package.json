@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "docsify-cli": "^4.3.0"
+  },
+  "scripts": {
+    "doc": "docsify serve ./docs",
+    "cp": "cp -r topics ./docs/ && cp README.md ./docs/"
+  }
+}
