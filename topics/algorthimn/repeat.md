@@ -1,5 +1,6 @@
-#### 周期执行某个函数 n 次
+# 周期执行某个函数 n 次
 
+## 代码
 ```js
 function repeat(func, times, ms, immediate) {
   let count = 0;

@@ -1,5 +1,10 @@
-#### 实现 getUrlParams
+# 实现 getUrlParams
 
+## 题目描述
+给定一个url和一个key，查找key是否在url的查询字符串中，
+如果在就返回，如果不在返回null，如果存在多个就返回数组。
+
+## 代码
 ```js
 // 给定key，求解href中的value，如果有多个，返回数组。如果没有返回null
 function getUrlParams(key, href) {

@@ -1,5 +1,7 @@
-#### 用栈实现队列
+# 用栈实现队列
 
+
+## 代码
 ```js
 function queue(nums) {
   this.stack = nums || [];

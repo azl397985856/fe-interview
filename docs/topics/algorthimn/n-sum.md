@@ -1,5 +1,7 @@
-#### 无序不相等数组中，选取 N 个数，使其和为 M
+# 无序不相等数组中，选取 N 个数，使其和为 M
 
+
+## 代码
 ```js
 function sum(list) {
   return list.reduce((acc, cur) => acc + cur, 0);

@@ -1,5 +1,6 @@
-#### 字符串反转
+# 字符串反转
 
+## 代码
 ```js
 function reverseString(str) {
   if (str.length === 1) return str;

@@ -1,5 +1,6 @@
-#### 函数节流
+# 函数节流
 
+## 代码
 ```js
 function throttle(cb, ms) {
   let timer = null;

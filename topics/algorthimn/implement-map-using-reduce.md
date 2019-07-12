@@ -1,5 +1,7 @@
-#### 用 reduce 实现 map
+# 用 reduce 实现 map
 
+
+## 代码
 ```js
 function implementMapUsingReduce(list, func) {
   return list.reduce((acc, cur, i) => {

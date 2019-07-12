@@ -1,5 +1,6 @@
-#### 实现快排
+# 实现快排
 
+## 代码
 ```js
 function helper(list) {
   if (list.length <= 1) return list;

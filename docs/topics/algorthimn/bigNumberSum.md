@@ -1,4 +1,12 @@
-#### 大数相加
+# 大数相加
+
+## 题目描述
+
+如何实现两个非常大的数字(已经超出了Number范围)的加法运算。
+
+注意由于这两个已经超过了Number范围，因此不能用Number存，这里我们选择使用字符串存储。
+
+## 参考代码
 
 ```js
 function bigNumberSum(a, b) {
@@ -34,12 +42,4 @@ function bigNumberSum(a, b) {
 
   return res.join("");
 }
-
-// test
-
-// a = bigNumberSum("" + Math.pow(2, 79), "" + Math.pow(2, 79));
-b = bigNumberSum("123456789", "9876");
-
-// console.log(a === "" + Math.pow(2, 80));
-console.log(b);
 ```

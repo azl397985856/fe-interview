@@ -1,8 +1,10 @@
-#### 判断链表是否成环
+# 判断链表是否成环
 
+
+## 题目描述
+判断一个链表是否有环
+## 代码
 ```js
-// 判断一个链表是否有环
-
 // leetcode 原题： 141.linked-list-cycle
 var hasCycle = function(head) {
   if (head === null) return false;

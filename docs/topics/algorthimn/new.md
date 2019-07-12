@@ -1,6 +1,7 @@
-#### 手动模拟new的执行过程
+# 手动模拟new的执行过程
 
 
+## 代码
 ```js
 
 function myNew(constructor, ...args) {

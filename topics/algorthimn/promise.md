@@ -1,4 +1,6 @@
-#### 实现简化的 promise
+# 实现简化的 promise
+
+## 代码
 
 ```js
 function Promise(func) {
@@ -24,6 +26,29 @@ Promise.prototype.catch = function(func) {
   this.errorHandlers.push(func);
   return this;
 };
+
+Promise.race = promises =>
+  new Promise((resolve, reject) => {
+    promises.forEach(promise => {
+      promise.then(resolve, reject);
+    });
+  });
+
+Promise.all = promises =>
+  new Promise((resolve, reject) => {
+    let len = promises.length;
+    let res = [];
+    promises.forEach((p, i) => {
+      p.then(r => {
+        if (len === 1) {
+          resolve(res);
+        } else {
+          res[i] = r;
+        }
+        len--;
+      }, reject);
+    });
+  });
 
 // test
 const p1 = new Promise(resolve =>

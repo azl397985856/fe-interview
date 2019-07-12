@@ -1,5 +1,6 @@
-#### 最长公共子串
+# 最长公共子串
 
+## 代码
 ```js
 function longestCommonSubstring(s1, s2) {
   const dp = [];

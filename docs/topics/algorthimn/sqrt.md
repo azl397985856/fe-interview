@@ -1,7 +1,9 @@
-#### 实现 Math.sqrt
+# 实现 Math.sqrt
 
+## 题目描述
 要求不用数学库，求 sqrt(2)精确到小数点后 10 位
 
+## 代码
 ```js
 function sqrt(num) {
   if (num < 0) return num;

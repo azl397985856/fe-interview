@@ -1,12 +1,12 @@
-## TCP
+# TCP
 
-### 描述下 TCP 的三次握手与四次挥手
+## 描述下 TCP 的三次握手与四次挥手
 
-#### 三次握手是什么
+### 三次握手是什么
 所谓三次握手(Three-way Handshake)，是指建立一个 TCP 连接时，需要客户端和服务器总共发送 3 个包。
-#### 为什么进行三次握手
+### 为什么进行三次握手
 三次握手的目的是连接服务器指定端口，建立 TCP 连接，并同步连接双方的序列号(seq)和确认号(ack), 交换 TCP 窗口大小(slidding window size)信息
-#### 三次握手具体做了什么
+### 三次握手具体做了什么
 
 - 第一次握手(SYN=1, seq=x):
 
@@ -29,11 +29,11 @@
 (来自https://hit-alibaba.github.io/interview/basic/network/TCP.html)
 
 
-#### 四次挥手是什么
+### 四次挥手是什么
 在 socket 编程中，任何一方执行 close() 操作即可产生挥手操作，
 TCP 的连接的拆除需要发送四个包，因此称为四次挥手(Four-way handshake)
 
-#### 四次挥手的具体过程
+### 四次挥手的具体过程
 
 - 第一次挥手(FIN=1，seq=x)
 
@@ -67,6 +67,6 @@ TCP 的连接的拆除需要发送四个包，因此称为四次挥手(Four-way 
 
 
 
-### 参考链接
+## 参考链接
 
 - [笔试面试知识整理-TCP](https://hit-alibaba.github.io/interview/basic/network/TCP.html)

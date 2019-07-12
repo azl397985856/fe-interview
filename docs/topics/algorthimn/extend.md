@@ -1,11 +1,13 @@
-#### 实现继承
+# 实现继承
+
+## 代码
 
 ```js
 function extend(A, B) {
   function f() {}
   f.prototype = B.prototype;
   A.prototype = new f();
-  // A.prototype.constructor = A.prototype.constructor;
+  A.prototype.constructor = A;
 }
 
 function A(name) {
@@ -18,9 +20,6 @@ extend(A, B);
 B.prototype.say = function() {
   console.log("b say");
 };
-// A.prototype.say = function() {
-//     console.log('a say');
-// }
 A.prototype.eat = function() {
   console.log("a eat");
 };

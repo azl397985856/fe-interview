@@ -1,7 +1,13 @@
-#### 实现 lensProp
+# 实现 lensProp
+
+## 题目描述
+
+给定一个字符串， 比如lensProp(a, obj) 返回 'obj.a'的值
+
+## 代码
 
 ```js
-//  给定一个字符串， 比如lensProp(a, obj) 返回 'obj.a'的值
+//  
 function lensProp(lens, obj) {
   const keys = lens.split(".");
   if (keys.lenngth < 1) return;

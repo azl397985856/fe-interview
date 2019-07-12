@@ -1,5 +1,6 @@
-#### 最长公共子序列
+# 最长公共子序列
 
+## 代码
 ```js
 function longestCommonSequence(s1, s2) {
   const dp = [];

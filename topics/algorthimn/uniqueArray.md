@@ -1,5 +1,6 @@
-#### 数组去重
+# 数组去重
 
+## 代码
 ```js
 // 数组去重，要求时间复杂度O(nlogn) 空间复杂度O(1)
 function uniqueArray(list) {
