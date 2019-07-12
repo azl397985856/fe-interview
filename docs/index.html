@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>前端面试</title>
+    <title>大前端面试宝典 - 图解前端</title>
     <meta name="description" content="Description" />
     <meta
       name="viewport"
@@ -24,17 +24,6 @@
         '/zh-cn/': '搜索',
         '/': 'Type to search'
       },
-      },
-      markdown: {
-        renderer: {
-          link: function(href, ...rest) {
-            if (href.slice(-3) === ".js") {
-              return this.origin.link.call(this, href.slice(0, -3), ...rest);
-            }
-
-            return this.origin.link.call(this, href, ...rest);
-          }
-        }
       }
     };
   </script>
