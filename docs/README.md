@@ -680,6 +680,14 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 ### 模拟面试
 
+模拟面试指的是按照实际的面试流程进行模拟，常见的有测试题目模拟，现场模拟。
+
+测试题目模拟会比较多，大家可以使用OJ平台进行测试，也可以找一些题目自己测试。
+
+现场模拟通常需要一些资深的面试官对你进行考察，你可以找自己的同事或者前辈，也可以花钱
+找别人帮忙。 当然如果你不嫌弃，找我进行`Mock Interview` 也是可以的,
+我的个人邮箱 [azl397985856@gmail.com] 
+
 - [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 
 
