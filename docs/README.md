@@ -194,7 +194,7 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 - [千分位转数字](./topics/algorthimn/numFormat.md)
 - [将数字转化为中文(数字是 10 万以内)](./topics/algorthimn/numToChineseStr.md)
 - [已知数据格式，实现一个函数 fn 找出链条中所有的父级 id](./topics/algorthimn/findParents.md)
-- [获取页面所有的tagname]()
+- [获取页面所有的tagname](./topics/algorthimn/getAllHTMLTags.md)
 
 ### CSS 🦋
 
@@ -215,7 +215,7 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 
 - [大量数据滚动加载](./topics/design/lazy-scroll.md)
 - [如何设计一个实时检查更新的功能](./topics/design/auto-update.md)
-- [设计一个新闻列表，用户已经看过的新闻，在标题后面增加“已阅读”文字]() (TODO)
+- [设计一个新闻列表，用户已经看过的新闻，在标题后面增加“已阅读”文字](./topics/design/already-read.md)
 - [实现一个轮播图组件](https://zhuanlan.zhihu.com/p/72091681)
 - [实现一个模态框组件](./topics/design/modal.md)（TODO）
 - [实现一个下拉框组件](./topics/design/select.md)（TODO）
@@ -427,7 +427,7 @@ TODO
 关于这部分要突出项目的难点，核心问题，如果没有特别的难点，你应该问下自己你对项目做过的思考，有什么优化点和不足，
 包括团队和自身。
 
-- [你的项目难点是什么]() (TODO)
+- [你的项目难点是什么](./topics/project/pain-in-the-ass.md)
 - [做过的项目中技术架构是什么样的，可以优化么]() (TODO)
 
 ### 安全 🔐
