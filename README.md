@@ -284,7 +284,7 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 这里列举了几个我觉得比较有代表且比较有意思的主题：
 
-- [内置类型](./topics/js/buit-in-types.md)(TODO)
+- [内置类型](./topics/js/buit-in-types.md)
 - [作用域与闭包](./topics/js/scope&closures.md)
 - [引用和操作符优先级](./topics/js/reference&priority.md)
 - [原型与原型链](./topics/js/prototype.md)(TODO)
