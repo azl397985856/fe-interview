@@ -1,6 +1,7 @@
 # 实现千分位展示
 
 ## 代码
+
 ```js
 function moneyFormat(num) {
   // 123456789
