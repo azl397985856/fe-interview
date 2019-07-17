@@ -195,6 +195,7 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 - [将数字转化为中文(数字是 10 万以内)](./topics/algorthimn/numToChineseStr.md)
 - [已知数据格式，实现一个函数 fn 找出链条中所有的父级 id](./topics/algorthimn/findParents.md)
 - [获取页面所有的tagname](./topics/algorthimn/getAllHTMLTags.md)
+- [实现XPath](./topics/algorthimn/xpath.md)
 
 ### CSS 🦋
 
@@ -742,6 +743,7 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 - [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 - [Interview Questions for front-end-Developer](http://thatjsdude.com/interview/#)
 - [javascript-questions](https://github.com/lydiahallie/javascript-questions)
+- [front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
 - [30 seconds of code](https://30secondsofcode.org/)
 
 ## 声明
