@@ -2,8 +2,8 @@
 
 ## 传送们
 
-- [实现千分位展示](./moneyFormat.md)
-- [千分位转数字](numFormat)
+- [实现千分位展示](/topics/algorthimn/moneyFormat.md)
+- [千分位转数字](/topics/algorthimn/numFormat.md)
 
 ## 其他题目
 

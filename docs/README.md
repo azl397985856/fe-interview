@@ -315,6 +315,8 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 - BOM API
 
+- Chrome浏览器中的进程和线程
+
 ### 小程序
 
 <img src="./assets/imgs/topics/mini-program/mini-program-cover.jpg" alt="node" width="70%" align=center />
@@ -347,11 +349,14 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 ![network-cover](./assets/imgs/topics/network/network-cover.jpg)
 
+- [从输入URL到页面展示发生了什么]() (TODO) 
+> 上面这个我会写地非常详细，敬请期待
+- [输入 ping IP 后敲回车，发包前会发生什么？](./topics/network/ping.md)
 - [网络通讯模型](./topics/network/network-model.md)
 - [子网掩码](./topics/network/net-mask.md)
 - [TCP](./topics/network/tcp.md)
 - [UDP](./topics/network/udp.md)(TODO)
-- [HTTP](./topics/network/http.md)(TODO)
+- [HTTP](./topics/network/http.md)
 - [HTTPS](./topics/network/https.md)(TODO)
 - [DNS](./topics/network/dns.md)(TODO)
 
@@ -372,7 +377,7 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 ### 操作系统 💻
 
-- [内存分配](./topics/os/memory/allocation.md)
+- [内存分配](./topics/os/memory/allocation.md)  
 - [线程和进程](./topics/os/process/thread.md)(TODO)
 
 ### 包管理 📦
@@ -441,11 +446,11 @@ TODO
 
 ### 安全 🔐
 
-> 还没开始整理
-
-
-> xss, csrf 算是比较常见的安全问题了。
 > 如果岗位对 node 有要求，那么安全问题肯定会更多，因此这部分需要更加关注。
+
+- [XSS]() (TODO)
+- [csrf]() (TODO)
+- [运营商劫持]() (TODO)
 
 ### seo
 
@@ -590,10 +595,22 @@ Git，SVN 只是代码管理的工具，不等同于代码管理。
 
 > 待整理
 
+
+### 监控
+
+- 监控源码变更（比如基础库变更警告）
+- 监控报错
+  - 脚本报错
+  - 接口/业务出错
+- 性能监控
+
 ### 测试
 
 - 测试的原则和基本方式
 - 测试的类型
+  - 单元测试
+  - 接口测试
+  - UI自动化测试（核心流程回归的 UI 自动化）
 - 测试框架
 - 测试工作流
 
@@ -664,6 +681,11 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 （图片来自： https://martinfowler.com/articles/micro-frontends.html）
 
 这里后续会系统性列举一些微前端的资料。
+
+### 编译/转义
+
+- [AST]() (TODO)
+
 ### 可访问性 ♿
 
 > 还没开始整理
@@ -677,9 +699,10 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 以下是我整理的一些个人认为比较新且有前景的技术：
 
 - AI 人工智能正在改变着我们的生活，前端也不例外
-- Severless 使得开发更聚焦
+- [Serverless 使得开发更聚焦](./topics/new-tech/serverless.md)
 - IOT/AR/VR 带来的交互形式的变化
 - 可视化
+- PWA
 
 
 ### 前端之外
@@ -753,6 +776,7 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 - [javascript-questions](https://github.com/lydiahallie/javascript-questions)
 - [front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
 - [30 seconds of code](https://30secondsofcode.org/)
+- [软技能题目集合 ](https://zhuanlan.zhihu.com/p/73874112)
 
 ## 声明
 
@@ -771,7 +795,9 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 ### 微信群
 
-<img src="./assets/imgs/wechat-group-chat.png" width = "50%" height = "50%" alt="JavaScript" align=center />
+<img src="./assets/imgs/wechat-group-chat.jpeg" width = "50%" height = "50%" alt="JavaScript" align=center />
+
+(由于微信的限制，100个人以上只能邀请加入， 你可以添加我的机器人回复“大前端”拉你进群)
 
 ## 贡献
 
