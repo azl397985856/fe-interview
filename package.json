@@ -4,6 +4,6 @@
   },
   "scripts": {
     "doc": "docsify serve ./docs",
-    "cp": "cp -r topics ./docs/ && cp README.md ./docs/ && cp -r assets docs/"
+    "cp": "cp README.md ./docs/"
   }
 }

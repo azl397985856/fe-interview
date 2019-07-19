@@ -1,1 +1,0 @@
-DNS服务是使用TCP还是UDP？ 答案是both，主辅DNS服务器之间进行区域传送时使用TCP，域名解析时使用UDP协议  https://www.cnblogs.com/lca1826/p/6599269.html

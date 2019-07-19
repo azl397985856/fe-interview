@@ -1,1 +1,0 @@
-![defer-async](../../assets/imgs/topics/browser/defer-async.jpg)
