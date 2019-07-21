@@ -80,9 +80,9 @@
 ## 贡献
 
 - 项目刚刚创建，个人精力有限。再加上有些东西我本人也不是很精通，因此邀请各路仙友加入到这个项目中来，欢迎大家认领相应的模块，当然也可以添加新的模块。
-- 如果有想法和创意，请提[issue](https://github.com/azl397985856/frontend-interview/issues)或者进群提
-- 如果想贡献代码，请提[PR](https://github.com/azl397985856/frontend-interview/pulls)
-- 如果需要修改项目中图片，[这里](./assets/drawio/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
+- 如果有想法和创意，请提[issue](https://github.com/azl397985856/fe-interview/issues)或者进群提
+- 如果想贡献代码，请提[PR](https://github.com/azl397985856/fe-interview/pulls)
+- 如果需要修改项目中图片，[这里](./docs/assets/drawio/)存放了项目中绘制图的源代码， 大家可以用[draw.io](https://www.draw.io/)打开进行编辑。
 
 ## License
 
