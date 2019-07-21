@@ -1,7 +1,5 @@
 # 大前端面试宝典 - 图解前端
 
-为了更好的阅读效果，推荐使用[在线阅读](https://lucifer.ren/fe-interview/#/)的方式。
-
 ![logo](./assets/imgs/logo.jpg)
 这是一份自己总结的关于准备前端面试的一个复习汇总项目，项目不定时更新。
 
