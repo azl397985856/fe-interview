@@ -205,7 +205,13 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 
 ### CSS 🦋
 
-我并不擅长，欢迎大佬补充。
+国外会有一些类似 `CSS/HTML 专家` 的岗位，可以看出这部分内容还是相对比较重要且难以精通的。
+
+这里我推荐medium社区的，来自Elad Shechter的关于CSS架构系列文章：
+
+- [Normalize CSS or CSS Reset?!](https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e)
+- [CSS Architecture — Folders & Files Structure](https://medium.com/@elad/css-architecture-folders-files-structure-f92b40c78d0b)
+- [CSS Architecture for Multiple Websites](https://medium.com/@elad/css-architecture-for-multiple-websites-ad696c9d334)
 
 > 我已经联系了几个CSS方面的专家，之后会在这里给几个链接过去，目前还在整理中。
 
@@ -261,6 +267,9 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 
 React考察的点就那么几点，从简单的声明周期，特定API的使用。 到SetState的原理，
 虚拟DOM，以及DOM diff算法等。 这部分需要大家对React有系统性认识。
+
+如果你想系统性学习React，推荐看官网。 
+除了官网，我这里推荐一份资料 - [全面介绍React](https://jscomplete.com/learn/complete-intro-react#managing-side-effects)
 
 这部分其实可以参考我之前开的一个仓库[从零开始开发一个 React](https://github.com/azl397985856/mono-react)
 
