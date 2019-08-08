@@ -29,19 +29,19 @@ function bigNumberSum(a, b) {
     cur++;
   }
 
-  let curried = 0;
+  let carried = 0;
   const res = [];
 
   for (let i = a.length - 1; i > -1; i--) {
-    const sum = curried + +a[i] + +b[i];
+    const sum = carried + +a[i] + +b[i];
     if (sum > 9) {
-      curried = 1;
+      carried = 1;
     } else {
-      curried = 0;
+      carried = 0;
     }
     res[i] = sum % 10;
   }
-  if (curried === 1) {
+  if (carried === 1) {
     res.unshift(1);
   }
 
