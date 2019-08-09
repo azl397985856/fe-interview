@@ -11,8 +11,8 @@ function test(a, b, c) {
   console.log(a, b, c);
 }
 
-curry(test)(1);
-f1(2);
+const f1 = curry(test)(1);
+const f2 = f1(2);
 f2(3);
 
 ```
@@ -38,7 +38,7 @@ function test(a, b, c) {
   console.log(a, b, c);
 }
 
-curry(test)(1);
-f1(2);
+const f1 = curry(test)(1);
+const f2 = f1(2);
 f2(3);
 ```
