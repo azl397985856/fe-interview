@@ -661,7 +661,7 @@ Git，SVN 只是代码管理的工具，不等同于代码管理。
 ### 数据层
 
 - BFF
-- GraphQL
+- [干货 | 万字长文全面解析GraphQL，携程微服务背景下的前后端数据交互方案](https://mp.weixin.qq.com/s/PovMmO6ddcpBO5A2WtY89Q)
 
 ### 跨端
 
