@@ -278,7 +278,7 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 
 #### React
 
-React考察的点就那么几点，从简单的声明周期，特定API的使用。 到SetState的原理，
+React考察的点就那么几点，从简单的生命周期，特定API的使用。 到SetState的原理，
 虚拟DOM，以及DOM diff算法等。 这部分需要大家对React有系统性认识。
 
 如果你想系统性学习React，推荐看官网。 
