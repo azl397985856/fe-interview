@@ -1,5 +1,10 @@
 # 大前端面试宝典 - 图解前端
 
+![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.fe-interview)
+![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.fe-interview)
+
+> 统计数据的时间是从 2019-09-03 19:40 起至今
+
 为了更好的阅读效果，推荐使用[在线阅读](https://lucifer.ren/fe-interview/#/)的方式。
 
 ![logo](./docs/assets/imgs/logo.jpg)
