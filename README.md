@@ -34,19 +34,6 @@
 相反面试官应该更关注`面试者是否了解前端开发的基本原理，而不是依赖更高级别的抽象。`
 比如你是否可以在不依赖库的情况下完成开发任务（当然实际情况很少这样），这样你才能彻底理解库在背后都做了什么。
 
-## 每日一题
-
-每日一题是在交流群（包括微信和qq）里进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，
-会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
-
-![daily-issue](./docs/assets/imgs/daily-issue.png)
-
-- [每日一题汇总](https://github.com/azl397985856/fe-interview/tree/master/docs/daily)
-
-![daily-summary](./docs/assets/imgs/daily-summary.png)
-
-- [每日一题认领区](https://github.com/azl397985856/fe-interview/projects/1)
-
 ## 关于我
 
 我是一个对技术充满兴趣的程序员, 擅长前端工程化，前端性能优化，前端标准化等。
@@ -72,6 +59,19 @@
 对于前端的技能图谱，我比较推荐[这个网站](https://roadmap.sh/frontend)。
 这个网站相对于其他的前端技能图谱，更新地更快一点，其他的技能图谱很多都落伍了。
 
+## 每日一题
+
+每日一题是在交流群（包括微信和qq）里进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，
+会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
+
+<img width="300" src="./docs/assets/imgs/daily-issue.png">
+
+- [每日一题汇总](https://github.com/azl397985856/fe-interview/tree/master/docs/daily)
+
+<img width="300" src="./docs/assets/imgs/daily-summary.pngg">
+
+- [每日一题认领区](https://github.com/azl397985856/fe-interview/projects/1)
+
 ## 关注我
 
 最近我重新整理了下自己的公众号，并且我还给他换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
@@ -83,17 +83,17 @@
 另外你可以回复大前端拉你进微信群，如果想加入qq群，请回复qq。
 
 
-<img width="300" src="./assets/gongzhonghao.jpeg">
+<img width="300" src="https://github.com/azl397985856/leetcode/raw/master/assets/gongzhonghao.jpeg">
 
 ## 捐赠
 
 [点击查看完整的捐赠列表](./donation.md)
 
 ### 微信
-<img width="300" src="./assets/donate-weixin.jpg">
+<img width="300" src="https://github.com/azl397985856/leetcode/raw/master/assets/donate-weixin.jpg">
 
 ### 支付宝
-<img width="300" src="./assets/donate-zfb.jpg">
+<img width="300" src="https://github.com/azl397985856/leetcode/raw/master/assets/donate-zfb.jpg">
 
 ## 贡献
 
