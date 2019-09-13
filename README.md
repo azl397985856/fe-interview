@@ -64,11 +64,11 @@
 每日一题是在交流群（包括微信和qq）里进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，
 会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
 
-<img width="300" src="./docs/assets/imgs/daily-issue.png">
+<img width="600" src="./docs/assets/imgs/daily-issue.png">
 
 - [每日一题汇总](https://github.com/azl397985856/fe-interview/tree/master/docs/daily)
 
-<img width="300" src="./docs/assets/imgs/daily-summary.pngg">
+<img width="600" src="./docs/assets/imgs/daily-summary.png">
 
 - [每日一题认领区](https://github.com/azl397985856/fe-interview/projects/1)
 
