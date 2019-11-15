@@ -167,14 +167,18 @@ function capture(e, currentElement) {
 	if (currentElement.listners[e.type] !== void 0) {
 		currentElement.listners[e.type].forEach(fn => fn(e))
 	}
+
+
 	// pass down
 	if (currentElement !== e.target) {
-		currentElement.children.forEach(child => capture(e, child))
+		// getActiveChild用于获取当前事件传播链路上的子节点
+		capture(e, getActiveChild(currentElement, e))
 	} else {
 		bubble(e, currentElement)
 	}
 }
 
+// 这个Event对象由引擎创建
 capture(new Event(), document.querySelector('html'))
 
 ```
