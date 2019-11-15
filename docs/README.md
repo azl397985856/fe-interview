@@ -136,6 +136,28 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 
 [如何做自我介绍](./topics/introduction/intro.md)
 
+### JavaScript 🗒️
+
+<img src="./assets/imgs/topics/js/js-cover.png" width = "20%" height = "20%" alt="JavaScript" align=center />
+
+JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，但是核心考点还是那几个，比较高端的基本都是`词法作用域`, `EC`, `闭包`， `高阶函数`.
+
+> 在学习接下来的东西之前，建议大家先打好基础，这里只推荐两本书，一本是《You-Dont-Know-JS》，另一本是《JavaScript: The Good Parts》。
+
+我非常不建议你没有系统学习JS之前就去刷题目，这是毫无意义的，根本无法从根本上理解。
+之后对前端技能的考察会越来越严格。大家系统性学习之后，推荐过来看一下我这里总结的东西，
+最后去网上找一些经典的题目，通过这些题目来检查自己，而不是一开始就去网上找题目做。
+
+这里列举了几个我觉得比较有代表且比较有意思的主题：
+
+- [内置类型](./topics/js/buit-in-types.md)
+- [作用域与闭包](./topics/js/scope&closures.md)
+- [引用和操作符优先级](./topics/js/reference&priority.md)
+- [原型和继承](./topics/js/prototype.md)
+- [this](./topics/js/this.md)(施工中)
+- [执行上下文（EC）](./topics/js/EC.md)(施工中)
+- [ES6+](es6+.md)(施工中)
+
 ### 编程题 ✍️
 
 算法分为三部分:
@@ -305,35 +327,12 @@ Redux中核心就是一个单一的state。state通过闭包的形式存放在re
 
 > vuex 部分我建议等到 vue 更新 3.0 之后再去研究 ta。
 
-### JavaScript 🗒️
-
-<img src="./assets/imgs/topics/js/js-cover.png" width = "20%" height = "20%" alt="JavaScript" align=center />
-
-JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，但是核心考点还是那几个，比较高端的基本都是`词法作用域`, `EC`, `闭包`， `高阶函数`.
-
-> 在学习接下来的东西之前，建议大家先打好基础，这里只推荐两本书，一本是《You-Dont-Know-JS》，另一本是《JavaScript: The Good Parts》。
-
-我非常不建议你没有系统学习JS之前就去刷题目，这是毫无意义的，根本无法从根本上理解。
-之后对前端技能的考察会越来越严格。大家系统性学习之后，推荐过来看一下我这里总结的东西，
-最后去网上找一些经典的题目，通过这些题目来检查自己，而不是一开始就去网上找题目做。
-
-这里列举了几个我觉得比较有代表且比较有意思的主题：
-
-- [内置类型](./topics/js/buit-in-types.md)
-- [作用域与闭包](./topics/js/scope&closures.md)
-- [引用和操作符优先级](./topics/js/reference&priority.md)
-- [原型和继承](./topics/js/prototype.md)
-- [this](./topics/js/this.md)(施工中)
-- [执行上下文（EC）](./topics/js/EC.md)(施工中)
-
 
 ### 浏览器
 
 <img src="./assets/imgs/topics/browser/browser-cover.png" width = "40%" height = "40%" alt="浏览器" align=center />
 
-> 预计10月份更新
-
-- 事件模型
+- [事件模型](./topics/browser/event.md)
 
 - 浏览器安全策略
 
