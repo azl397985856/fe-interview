@@ -154,7 +154,7 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 - [作用域与闭包](./topics/js/scope&closures.md)
 - [引用和操作符优先级](./topics/js/reference&priority.md)
 - [原型和继承](./topics/js/prototype.md)
-- [this](./topics/js/this.md)(施工中)
+- [this](./topics/js/this.md)
 - [执行上下文（EC）](./topics/js/EC.md)(施工中)
 - [ES6+](es6+.md)(施工中)
 
