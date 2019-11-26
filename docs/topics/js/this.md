@@ -1,3 +1,5 @@
+> [作者仓库](https://github.com/HEternally/Blog)
+
 ## 一、引子
 
 ```js
@@ -328,5 +330,3 @@ foo();
 this在严格模式下绑定到undefined
 在非严格模式下绑定到全局对象
 ```
-
-> [作者仓库](https://github.com/HEternally/Blog)
