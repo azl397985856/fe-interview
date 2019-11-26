@@ -3,7 +3,6 @@
     "docsify-cli": "^4.3.0"
   },
   "scripts": {
-    "doc": "docsify serve ./docs",
-    "cp": "cp README.md ./docs/"
+    "doc": "docsify serve ./docs"
   }
 }

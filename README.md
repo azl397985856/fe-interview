@@ -1,5 +1,10 @@
 # 大前端面试宝典 - 图解前端
 
+![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.fe-interview)
+![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.fe-interview)
+
+> 统计数据的时间是从 2019-09-03 19:40 起至今
+
 为了更好的阅读效果，推荐使用[在线阅读](https://lucifer.ren/fe-interview/#/)的方式。
 
 ![logo](./docs/assets/imgs/logo.jpg)
@@ -21,7 +26,7 @@
 
 面试是一件很主观很难的事情。 面试不通过不代表你就不合格，同样地即使面试通过也不意味着你就合格了。
 作为候选人，通常会给你45分钟的时间来让你展示自己的技能。
-作为一名面试官，同样难以在这么短的时间里评估这个人是否适合这项工作。 
+作为一名面试官，同样难以在这么短的时间里评估这个人是否适合这项工作。
 对于面试来说，没有任何一种标准能够适合所有人，面试官通常会覆盖某一个领域，但除此之外，他们会自行决定应该问哪些问题。
 
 准备面试，我们应该准备一些真正能够体现面试人水平的题目，比如一些编程题，设计题，框架选型等，不要过分
@@ -46,15 +51,6 @@
 
 这部分的内容建议使用[线上地址阅读](https://lucifer.ren/fe-interview/#/)。
 
-## 关注我
-
-最近我重新整理了下自己的公众号，并且我还给他换了一个名字《脑洞前端》，它是一个帮助你打开大前端新世界大门的钥匙🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
-
-我会尽量通过图的形式来阐述一些概念和逻辑，帮助大家快速理解，图解前端是我的目标。
-
-之后我的文章同步到微信公众号 脑洞前端 ，您可以关注获取最新的文章，或者和我进行交流。
-
-<img src="./docs/assets/imgs/gongzhonghao.jpeg" width = "50%" height = "50%" alt="gongzhonghao" align=center />
 
 ## 声明
 
@@ -63,19 +59,41 @@
 对于前端的技能图谱，我比较推荐[这个网站](https://roadmap.sh/frontend)。
 这个网站相对于其他的前端技能图谱，更新地更快一点，其他的技能图谱很多都落伍了。
 
-## 交流群
+## 每日一题
 
-现在还是初级阶段，需要大家的意见和反馈，为了减少沟通成本，我组建了交流群。大家可以扫码进入
+每日一题是在交流群（包括微信和qq）里进行的一种活动，大家一起 解一道题，这样讨论问题更加集中，
+会得到更多的反馈。而且 这些题目可以被记录下来，日后会进行筛选添加到仓库的题解模块。
 
-### QQ 群
+<img width="600" src="./docs/assets/imgs/daily-issue.png">
 
-![qq-group-chat](./docs/assets/imgs/qq-group-chat.png)
+- [每日一题汇总](https://github.com/azl397985856/fe-interview/tree/master/docs/daily)
 
-### 微信群
+<img width="600" src="./docs/assets/imgs/daily-summary.png">
 
-<img src="./docs/assets/imgs/wechat-group-chat.jpeg" width = "50%" height = "50%" alt="JavaScript" align=center />
+- [每日一题认领区](https://github.com/azl397985856/fe-interview/projects/1)
 
-(由于微信的限制，100个人以上只能邀请加入， 你可以添加我的机器人回复“大前端”拉你进群)
+## 关注我
+
+我重新整理了下自己的公众号，并且我还给它换了一个名字`脑洞前端`，它是一个帮助你打开大前端新世界大门的钥匙 🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
+
+在这里我会尽量通过图的形式来阐述一些概念和逻辑，帮助大家快速理解，图解是我的目标。
+
+之后我的文章会同步到微信公众号 `脑洞前端` ，你可以关注获取最新的文章，并和我进行交流。
+
+另外你可以回复大前端进大前端微信交流群， 回复 leetcode 拉你进 leetcode 微信群，如果想加入 qq 群，请回复 qq。
+
+
+<img width="300" src="https://github.com/azl397985856/leetcode/raw/master/assets/gongzhonghao.jpeg">
+
+## 捐赠
+
+[点击查看完整的捐赠列表](./donation.md)
+
+### 微信
+<img width="300" src="https://github.com/azl397985856/leetcode/raw/master/assets/donate-weixin.jpg">
+
+### 支付宝
+<img width="300" src="https://github.com/azl397985856/leetcode/raw/master/assets/donate-zfb.jpg">
 
 ## 贡献
 

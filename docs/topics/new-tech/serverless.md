@@ -1,5 +1,10 @@
 # Serverless
 
+
+每一次前端开发模式的变化，都因为某个变革性技术的出现。先是 AJAX，然后是 Node.js。
+
+那么下一个变革性的技术是什么？是微前端，还是Serverless ？
+
 ## 概念
 
 Serverless提供包括云函数、数据存储、文件存储等一整套后端服务。开发者通过API方式即可获取云函数、数据存储、文件存储、音视频、图像处理等服务，不需要关心服务器或底层运维设施，
@@ -20,3 +25,4 @@ TODO
 
 - [阿里云 - serverless](https://help.aliyun.com/document_detail/122371.html?spm=a2c4g.11186623.4.1.547f60cbo4TTXQ)
 - [Serverless应用场景](https://help.aliyun.com/document_detail/65565.html)
+- [Serverless，将给前端发展带来大变革的技术](https://mp.weixin.qq.com/s/ooX7uMFjxFfSai9URo6kYw)

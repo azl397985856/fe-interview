@@ -99,10 +99,26 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 后续我计划会出一份详细的不同级别需要掌握的技能的列表。
 
 
-### 简历 📖
+### 简历 & 个人主页 📖
 
 投递简历是面试的第一步，很多时候我们第一步都跨不过去，排除个别岗位的硬性要求，其实很多时候
 是自己的简历写的不好，不能突出自己的优势，有时候甚至给自己减分。我们来看下[简历该怎么写](./topics/surface/resume.md)吧。
+
+个人网站是一个人的门面，写的好的话会加分很多。
+
+推荐几个国内和国外比较优秀的个人主页。
+
+- [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+- [玉伯](https://github.com/lifesinger/blog/issues?q=label:blog)
+- [Edward Yang's web site](http://ezyang.com/)
+- [Michael Bradshaw's web site](http://www.mjbshaw.com/)
+
+另外github也可以用来做你的简历，[Github is my resume](http://pydanny.blogspot.com/2011/08/github-is-my-resume.html)，
+其实我自己也维护了一个个人简历的项目，只不过目前只是用来做简历信息同步，没有做深层次的内容，
+我的github resume地址：https://github.com/azl397985856/resume
+
+我的个人网站地址： https://lucifer.ren/ ， 我并没有在个人网站放很多文章，根据个人喜好来吧，
+如果你想做的，把个人网站做成主库，然后写文章同步各大平台也是一个非常棒的做法。
 
 ### 自我介绍
 
@@ -119,6 +135,28 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 > 草稿
 
 [如何做自我介绍](./topics/introduction/intro.md)
+
+### JavaScript 🗒️
+
+<img src="./assets/imgs/topics/js/js-cover.png" width = "20%" height = "20%" alt="JavaScript" align=center />
+
+JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，但是核心考点还是那几个，比较高端的基本都是`词法作用域`, `EC`, `闭包`， `高阶函数`.
+
+> 在学习接下来的东西之前，建议大家先打好基础，这里只推荐两本书，一本是《You-Dont-Know-JS》，另一本是《JavaScript: The Good Parts》。
+
+我非常不建议你没有系统学习JS之前就去刷题目，这是毫无意义的，根本无法从根本上理解。
+之后对前端技能的考察会越来越严格。大家系统性学习之后，推荐过来看一下我这里总结的东西，
+最后去网上找一些经典的题目，通过这些题目来检查自己，而不是一开始就去网上找题目做。
+
+这里列举了几个我觉得比较有代表且比较有意思的主题：
+
+- [内置类型](./topics/js/buit-in-types.md)
+- [作用域与闭包](./topics/js/scope&closures.md)
+- [引用和操作符优先级](./topics/js/reference&priority.md)
+- [原型和继承](./topics/js/prototype.md)
+- [this](./topics/js/this.md)(施工中)
+- [执行上下文（EC）](./topics/js/EC.md)(施工中)
+- [ES6+](es6+.md)(施工中)
 
 ### 编程题 ✍️
 
@@ -205,12 +243,20 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 
 ### CSS 🦋
 
-我并不擅长，欢迎大佬补充。
+国外会有一些类似 `CSS/HTML 专家` 的岗位，可以看出这部分内容还是相对比较重要且难以精通的。
 
-- [布局]() (TODO)
-- [响应式]() (TODO)
-- [自适应]() (TODO)
-- [BEM等CSS架构]() (TODO)
+这里我推荐medium社区的，来自Elad Shechter的关于CSS架构系列文章：
+
+- [Normalize CSS or CSS Reset?!](https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e)
+- [CSS Architecture — Folders & Files Structure](https://medium.com/@elad/css-architecture-folders-files-structure-f92b40c78d0b)
+- [CSS Architecture for Multiple Websites](https://medium.com/@elad/css-architecture-for-multiple-websites-ad696c9d334)
+
+> 我已经联系了几个CSS方面的专家，之后会在这里给几个链接过去，目前还在整理中。
+
+- [布局]() (施工中)
+- [响应式]() (施工中)
+- [自适应]() (施工中)
+- [BEM等CSS架构]() (施工中)
 
 ### 设计题 🎩
 
@@ -224,9 +270,6 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 - [如何设计一个实时检查更新的功能](./topics/design/auto-update.md)
 - [设计一个新闻列表，用户已经看过的新闻，在标题后面增加“已阅读”文字](./topics/design/already-read.md)
 - [实现一个轮播图组件](https://zhuanlan.zhihu.com/p/72091681)
-- [实现一个模态框组件](./topics/design/modal.md)（TODO）
-- [实现一个下拉框组件](./topics/design/select.md)（TODO）
-- [实现一个标签页组件](./topics/design/tab.md)（TODO）
 
 ### 设计模式 👔
 
@@ -238,12 +281,12 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 - [单例模式](./topics/design-pattern/singleton.md)
 - [策略模式](./topics/design-pattern/strategy.md)
 - [代理模式](./topics/design-pattern/proxy.md)
-- [观察者模式](./topics/design-pattern/observer.md)(TODO)
-- [适配器模式](./topics/design-pattern/adapter.md)(TODO)
-- [迭代器模式](./topics/design-pattern/iterator.md) (TODO)
-- [工厂模式](./topics/design-pattern/factory.md)(TODO)
-- [模版方法模式](./topics/design-pattern/template.md)(TODO)
-- [装饰者模式](./topics/design-pattern/decorator.md)(TODO)
+- [观察者模式](./topics/design-pattern/observer.md)(施工中)
+- [适配器模式](./topics/design-pattern/adapter.md)(施工中)
+- [迭代器模式](./topics/design-pattern/iterator.md) (施工中)
+- [工厂模式](./topics/design-pattern/factory.md)(施工中)
+- [模版方法模式](./topics/design-pattern/template.md)(施工中)
+- [装饰者模式](./topics/design-pattern/decorator.md)(施工中)
 
 ### 框架 🖼️
 
@@ -257,13 +300,20 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 
 #### React
 
-React考察的点就那么几点，从简单的声明周期，特定API的使用。 到SetState的原理，
+React考察的点就那么几点，从简单的生命周期，特定API的使用。 到SetState的原理，
 虚拟DOM，以及DOM diff算法等。 这部分需要大家对React有系统性认识。
+
+如果你想系统性学习React，推荐看官网。 
+除了官网，我这里推荐一份资料 - [全面介绍React](https://jscomplete.com/learn/complete-intro-react#managing-side-effects)
 
 这部分其实可以参考我之前开的一个仓库[从零开始开发一个 React](https://github.com/azl397985856/mono-react)
 
 我后期会陆续增加一些对于React常见问题的汇总，大家保持关注即可。
 #### Redux
+
+官方给出的介绍是“Redux is a predictable state container for JavaScript apps.”。
+
+Redux中核心就是一个单一的state。state通过闭包的形式存放在redux store中，保证其是只读的。如果你想要更改state，只能通过发送action进行，action本质上就是一个普通的对象。
 
 我用 20 行代码左右实现了一个迷你版本的 redux，帮助自己理解 redux 的核心思想，这里是[原文](https://juejin.im/post/5a9e6a61f265da239866c7a3)。
 
@@ -277,35 +327,12 @@ React考察的点就那么几点，从简单的声明周期，特定API的使用
 
 > vuex 部分我建议等到 vue 更新 3.0 之后再去研究 ta。
 
-### JavaScript 🗒️
-
-<img src="./assets/imgs/topics/js/js-cover.png" width = "20%" height = "20%" alt="JavaScript" align=center />
-
-JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，但是核心考点还是那几个，比较高端的基本都是`词法作用域`, `EC`, `闭包`， `高阶函数`.
-
-> 在学习接下来的东西之前，建议大家先打好基础，这里只推荐两本书，一本是《You-Dont-Know-JS》，另一本是《JavaScript: The Good Parts》。
-
-我非常不建议你没有系统学习JS之前就去刷题目，这是毫无意义的，根本无法从根本上理解。
-之后对前端技能的考察会越来越严格。大家系统性学习之后，推荐过来看一下我这里总结的东西，
-最后去网上找一些经典的题目，通过这些题目来检查自己，而不是一开始就去网上找题目做。
-
-这里列举了几个我觉得比较有代表且比较有意思的主题：
-
-- [内置类型](./topics/js/buit-in-types.md)
-- [作用域与闭包](./topics/js/scope&closures.md)
-- [引用和操作符优先级](./topics/js/reference&priority.md)
-- [原型与原型链](./topics/js/prototype.md)(TODO)
-- [this](./topics/js/this.md)(TODO)
-- [执行上下文（EC）](./topics/js/EC.md)(TODO)
-
 
 ### 浏览器
 
 <img src="./assets/imgs/topics/browser/browser-cover.png" width = "40%" height = "40%" alt="浏览器" align=center />
 
-> 未加入到 TODO
-
-- 事件模型
+- [事件模型](./topics/browser/event.md)
 
 - 浏览器安全策略
 
@@ -331,9 +358,13 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 ### 原生通信
 
-> 还没开始整理
 
 如果你做过混合式开发的话，原生通信一定是不能绕过的点。
+很多时候我们使用的都是封装好的方法，我们可以直接调用，甚至支持
+Promise这种模式。 使用起来就好像“浏览器的原生API”一样方便。
+这从某种程度上来说，扩展了浏览器的功能。
+
+- [h5 与原生 app 交互的原理](https://segmentfault.com/a/1190000016759517)
 
 ### 网络
 
@@ -347,36 +378,36 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 ![network-cover](./assets/imgs/topics/network/network-cover.jpg)
 
-- [从输入URL到页面展示发生了什么]() (TODO) 
+- [从输入URL到页面展示发生了什么]() (施工中) 
 > 上面这个我会写地非常详细，敬请期待
 - [输入 ping IP 后敲回车，发包前会发生什么？](./topics/network/ping.md)
 - [网络通讯模型](./topics/network/network-model.md)
 - [子网掩码](./topics/network/net-mask.md)
 - [TCP](./topics/network/tcp.md)
-- [UDP](./topics/network/udp.md)(TODO)
+- [UDP](./topics/network/udp.md)(施工中)
 - [HTTP](./topics/network/http.md)
-- [HTTPS](./topics/network/https.md)(TODO)
-- [DNS](./topics/network/dns.md)(TODO)
+- [HTTPS](./topics/network/https.md)(施工中)
+- [DNS](./topics/network/dns.md)(施工中)
 
 ### node
 
 <img src="./assets/imgs/topics/node/node-cover.png" alt="node" width="50%" align=center />
 
-> 还没开始整理
+> 预计11月份开始整理
 
 如果你要做全栈或者后端，那么 node 是一个相对平滑的选择
 
-- [node 基础 API](./topics/node/basic.md)(TODO)
-- [node 集群](./topics/node/cluster.md)(TODO)
-- [node 监控](./topics/node/monitor.md)(TODO)
-- [node 底层架构和原理](./topics/node/internal.md)(TODO)
-- [node 和 deno 的区别](./topics/node/deno.md)(TODO)
-- [express 和 koa 等 web 框架](./topics/node/web-framework.md)(TODO)
+- [node 基础 API](./topics/node/basic.md)(施工中)
+- [node 集群](./topics/node/cluster.md)(施工中)
+- [node 监控](./topics/node/monitor.md)(施工中)
+- [node 底层架构和原理](./topics/node/internal.md)(施工中)
+- [node 和 deno 的区别](./topics/node/deno.md)(施工中)
+- [express 和 koa 等 web 框架](./topics/node/web-framework.md)(施工中)
 
 ### 操作系统 💻
 
 - [内存分配](./topics/os/memory/allocation.md)  
-- [线程和进程](./topics/os/process/thread.md)(TODO)
+- [线程和进程](./topics/os/process/thread.md)(施工中)
 
 ### 包管理 📦
 
@@ -386,14 +417,30 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 我们拿三个比较经典的包管理工具来讲解一下他们试图解决的问题，以及分别的优缺点，
 按照时间线来说他们分别是npm,yarn, tink。
 
-- [npm](./topics/package/npm.md)(TODO)
-- [yarn](./topics/package/yarn.md)(TODO)
-- [tink](./topics/package/tink.md)(TODO)
+- [npm](http://npmjs.com)
+- [yarn](https://yarnpkg.com/zh-Hans/https://yarnpkg.com/zh-Hans/)
+- [tink](https://github.com/npm/tink)
 
 ### 性能优化 ⏩
 
 性能优化是在面试中被问到的最多的题目了，这部分需要候选人有足够的深度和广度才能回答的比较全面，也是
 很容易体现候选人实力的一个点了。
+
+在互联网网站百花齐放的今天，网站响应速度是用户体验的第一要素，其重要性不言而喻，这里有几个关于响应时间的重要条件：
+
+用户在浏览网页时，不会注意到少于0.1秒的延迟；
+
+少于1秒的延迟不会中断用户的正常思维， 但是一些延迟会被用户注意到；
+
+延迟时间少于10秒，用户会继续等待响应；
+
+延迟时间超过10秒后，用户将会放弃并开始其他操作；
+
+因此大家都开始注重性能优化，很多厂商都开始做一些性能优化。比较有名的是雅虎军规，不过随着浏览器和协议等的发展，有一些已经逐渐被淘汰了。因此建议大家以历史的目光看待它。比如.尽量减少HTTP请求数这一条，在HTTP2协议下就不管用了，因为HTTP2实现了HTTP复用，HTTP请求变少，反而降低性能。因此一定要结合历史环境看待具体的优化原则和手段，否则会适得其反。
+
+> 雅虎军规中文版： http://www.cnblogs.com/xianyulaodi/p/5755079.html
+
+随着移动互联网的高速发展，移动终端的数量正在以指数级增长，很多厂商对于移动端体验都开始重视起来了。比如Google Chrome 的工程师 Alex就提出了Progressive Web App（以下简称PWA），用来提高移动端web的性能。PWA的核心是Service Worker， 通过它可以使得在JS主线程之外，程序员通过编程的方式控制网络请求，结合浏览器本身的缓存，往往可以达到非常棒的用户体验。PWA提出了许多类似Native的“功能”- 比如离线加载和桌面快捷方式，使得移动端web体验更加友好。另外加上web端本身的特性-比如快速迭代，可索引（你可以通过搜索引擎搜索，而native app 则不行）等，使得更多的人投入到给web端用户提供更佳的用户体验的PWA中去。Google在更早的时候，提出了AMP。 2017年Google dev上海站就宣传了PWA 和 AMP，并且通过一张动图形象地展示了两者（PWA的P和A翻过来，然后W上下翻转就是AMP，反之亦然）。AMP是一种面向手机端的轻量级的web展现，通过将重量级元素重新实现等方式提高了手机端性能。 另外诸如使用asm.js 使得代码更容易编译成机器指令，也是性能优化的一环。如果你仔细查看应用执行的profile的时候，你会发现js代码compile的时间会很久，尤其你写了很多无用js代码，或者没必要第一时间执行的代码的时候，这种影响更加大。js代码最终也是编译成二进制给机器执行，而js是动态语言，也就是说js代码是执行到哪编译到哪，这是和java这样的静态语言的一个很大的差别。V8已经对这部分做了相当大的优化，一般情况下我们不必担心，通常来讲这也不会成为性能瓶颈，因为这些时间和网络IO的时间根本不是一个数量级。但是在特定场合，提前编译成更容易解释执行的代码，可能就会派上用场。
 
 这部分可以参考我之前写的[文章](https://github.com/azl397985856/automate-everything/blob/master/docs/chapter4.md)
 
@@ -406,19 +453,19 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 不同的编程范式有着不同的适用场景，因此了解各种编程范式是很有必要的。
 
-> 还没开始整理
-
 #### 面向对象 👧🏻
 
-TODO
+施工中
 
 #### 函数式编程
+
+函数式编程的思想非常先进，其天生的可预测性(也可以说是可测试), 更细粒度的代码(逻辑)重用，以及天生支持并行等特点， 已经被也业内越来越多的人认可。由于其很高的学习门槛导致大多人并不了解它，或者只是知道概念，并不能够理解并运用函数式编程。
 
 这个是我之前写的[函数式编程系列教程](https://github.com/azl397985856/functional-programming)
 
 #### 响应式编程
 
-TODO
+施工中
 
 ### 状态管理
 
@@ -426,9 +473,7 @@ TODO
 因此React或者Vue只是解决了状态到视图的映射关系，没有解决数据的产生和维护问题，
 因此状态管理框架应运而生，比较著名的有redux， mobx，vuex等。
 
-- [状态管理的本质是什么？我们为什么需要它]() (TODO)
-- [Redux]() (TODO)
-- [Mobx]() (TODO)
+- [状态管理的本质是什么？我们为什么需要它]() (施工中)
 
 ### 项目经验
 
@@ -440,15 +485,15 @@ TODO
 包括团队和自身。
 
 - [你的项目难点是什么](./topics/project/pain-in-the-ass.md)
-- [做过的项目中技术架构是什么样的，可以优化么]() (TODO)
+- [做过的项目中技术架构是什么样的，可以优化么]() (施工中)
 
 ### 安全 🔐
 
 > 如果岗位对 node 有要求，那么安全问题肯定会更多，因此这部分需要更加关注。
 
-- [XSS]() (TODO)
-- [csrf]() (TODO)
-- [运营商劫持]() (TODO)
+- [XSS]() (施工中)
+- [csrf]() (施工中)
+- [运营商劫持]() (施工中)
 
 ### seo
 
@@ -463,8 +508,8 @@ shell 功能强大且移植性好，尤其在运维领域被广泛使用。
 
 作为程序员，掌握 shell 是一种进阶。
 
-- [基础命令](./topics/shell/cmds.md)（TODO）
-- [基础语法](./topics/shell/grammar.md)（TODO）
+- [基础命令](./topics/shell/cmds.md)（施工中）
+- [基础语法](./topics/shell/grammar.md)（施工中）
 
 ### ssr
 
@@ -491,9 +536,9 @@ TS 对于构建大型系统有着得天独厚的优势，丰富的类型签名�
 
 > 还没开始整理
 
-- [垃圾回收器](./topics/v8/gc.md)(TODO)
-- [预测优化](./topics/v8/gc.md)(TODO)
-- [shapes 和 inline cache](./topics/v8/shapes-and-inline-cache.md)(TODO)
+- [垃圾回收器](./topics/v8/gc.md)(施工中)
+- [预测优化](./topics/v8/gc.md)(施工中)
+- [shapes 和 inline cache](./topics/v8/shapes-and-inline-cache.md)(施工中)
 
 ### 标准化
 
@@ -538,13 +583,13 @@ WebAssembly 是一种可以使用非 JavaScript 编程语言编写代码并且�
 
 当然了解了webpack的基本原理还不够，面试中还会问一些工程性的问题，比如：
 
-- [如何用webpack管理应用的环境相关配置]() （TODO）
-- [如何用webpack做一些基础的性能优化]()（TODO）
-- [如何用webpack的配置项如何管理]()（TODO）
+- [如何用webpack管理应用的环境相关配置]() （施工中）
+- [如何用webpack做一些基础的性能优化]()（施工中）
+- [如何用webpack的配置项如何管理]()（施工中）
 
 #### 触发器
 
-TODO
+施工中
 
 #### linter
 
@@ -615,7 +660,7 @@ Git，SVN 只是代码管理的工具，不等同于代码管理。
 ### 数据层
 
 - BFF
-- GraphQL
+- [干货 | 万字长文全面解析GraphQL，携程微服务背景下的前后端数据交互方案](https://mp.weixin.qq.com/s/PovMmO6ddcpBO5A2WtY89Q)
 
 ### 跨端
 
@@ -682,13 +727,17 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 ### 编译/转义
 
-- [AST]() (TODO)
+- [AST]() (施工中)
 
 ### 可访问性 ♿
 
-> 还没开始整理
-> 可访问性一直是容易被忽略的一个点，这里我们简单聊一下前端的可访问性。
+可访问性一直是容易被忽略的一个点，这里我们简单聊一下前端的可访问性。
 
+根据 W3C 的定义，有生理缺陷的人也能轻松使用，更确切地说是能够感受、理解、操作产品(比如网站、工具…各种现代技术)，就可以被称为"无障碍"(accessibility)。
+闭着眼睛使用你的产品，测试看看它是否是"无障碍"的。在无法用眼看无法用鼠标，仅仅通过屏幕阅读软件对界面 的描述去操作你的产品时，人们还能顺利地使用那些呕心沥血做出来的功能吗？
+
+- [开发者必备 — Web 无障碍手册](https://link.zhihu.com/?target=https%3A//www.telerik.com/blogs/web-accessibility-guidebook-for-developers)
+> 译文地址： https://zhuanlan.zhihu.com/p/76438798
 ### 新技术 🆕
 
 > 还没开始整理
@@ -712,11 +761,11 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 用人单位普遍的技能要求有：
 
-- [Java 开发基础](./topics/ends/java.md)（TODO）
-- [Python 开发基础](./topics/ends/python.md)（TODO）
-- [Go 开发基础](./topics/ends/go.md)（TODO）
-- [运维知识](./topics/ends/ops.md)（TODO）
-- [Github 和博客](./topics/ends/share.md)（TODO）
+- [Java 开发基础](./topics/ends/java.md)（施工中）
+- [Python 开发基础](./topics/ends/python.md)（施工中）
+- [Go 开发基础](./topics/ends/go.md)（施工中）
+- [运维知识](./topics/ends/ops.md)（施工中）
+- [Github 和博客](./topics/ends/share.md)（施工中）
 
 上面的东西选择性掌握即可，这可以说是加分项，一般不会要求这些都掌握的。
 
