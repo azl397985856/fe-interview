@@ -401,7 +401,7 @@ Promise这种模式。 使用起来就好像“浏览器的原生API”一样方
 - [node 集群](./topics/node/cluster.md)(施工中)
 - [node 监控](./topics/node/monitor.md)(施工中)
 - [node 底层架构和原理](./topics/node/internal.md)(施工中)
-- [node 和 deno 的区别](./topics/node/deno.md)(施工中)
+- [Deno (Ryan Dahl 2018年11月台北JSDC演讲PPT翻译版)](https://zhuanlan.zhihu.com/p/51017778)
 - [express 和 koa 等 web 框架](./topics/node/web-framework.md)(施工中)
 
 ### 操作系统 💻
