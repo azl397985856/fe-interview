@@ -378,6 +378,8 @@ Promise这种模式。 使用起来就好像“浏览器的原生API”一样方
 
 ![network-cover](./assets/imgs/topics/network/network-cover.jpg)
 
+
+- [协议森林（大话网络协议）](https://www.cnblogs.com/vamei/archive/2012/12/05/2802811.html)
 - [从输入URL到页面展示发生了什么]() (施工中) 
 > 上面这个我会写地非常详细，敬请期待
 - [输入 ping IP 后敲回车，发包前会发生什么？](./topics/network/ping.md)
@@ -491,9 +493,9 @@ Promise这种模式。 使用起来就好像“浏览器的原生API”一样方
 
 > 如果岗位对 node 有要求，那么安全问题肯定会更多，因此这部分需要更加关注。
 
-- [XSS]() (施工中)
-- [csrf]() (施工中)
-- [运营商劫持]() (施工中)
+- [XSS](https://tech.meituan.com/2018/09/27/fe-security.html) 
+- [csrf](https://juejin.im/post/5bc009996fb9a05d0a055192) 
+- [运营商劫持](http://bigsec.com/bigsec-news/wechat-16824-yunyingshangjiechi) 
 
 ### seo
 
@@ -504,7 +506,7 @@ SEO 一直是一个非常重要的话题，尤其是依赖搜索引擎排名的�
 ### shell
 
 在工作中，我们时不时会做一些自动化或者批处理，这个时候掌握 shell 一种相对直接完成任务的方式。
-shell 功能强大且移植性好，尤其在运维领域被广泛使用。
+shell 功能强大且移植性好，尤其在运维领域被广泛使用。我单独有一个项目是专门[学习shell](https://github.com/azl397985856/learn-shell)的，感兴趣的可以关注一下。
 
 作为程序员，掌握 shell 是一种进阶。
 
@@ -751,7 +753,6 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 - 可视化
 - PWA
 
-
 ### 前端之外
 
 很多时候用人单位会对《前端工程师》有“后端”，“运维”方面的要求，不过都是浅层次的。
@@ -761,9 +762,10 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 用人单位普遍的技能要求有：
 
-- [Java 开发基础](./topics/ends/java.md)（施工中）
-- [Python 开发基础](./topics/ends/python.md)（施工中）
-- [Go 开发基础](./topics/ends/go.md)（施工中）
+- [Java 基础学习（廖雪峰）](https://www.liaoxuefeng.com/wiki/1252599548343744)
+- [Python 开发基础 (微软出品)](https://github.com/microsoft/c9-python-getting-started)
+- [Go语言圣经(英文版)](http://www.gopl.io/)
+> [Go语言圣经(中文版)](http://shouce.jb51.net/gopl-zh/)
 - [运维知识](./topics/ends/ops.md)（施工中）
 - [Github 和博客](./topics/ends/share.md)（施工中）
 
@@ -833,6 +835,8 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 之后我的文章同步到微信公众号 脑洞前端 ，您可以关注获取最新的文章，或者和我进行交流。
 
+回复`大前端`拉你进“前端交流群”
+
 <img src="./assets/imgs/gongzhonghao.jpeg" width = "50%" height = "50%" alt="gongzhonghao" align=center />
 
 ## 声明
@@ -842,19 +846,6 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 对于前端的技能图谱，我比较推荐[这个网站](https://roadmap.sh/frontend)。
 这个网站相对于其他的前端技能图谱，更新地更快一点，其他的技能图谱很多都落伍了。
 
-## 交流群
-
-现在还是初级阶段，需要大家的意见和反馈，为了减少沟通成本，我组建了交流群。大家可以扫码进入
-
-### QQ 群
-
-![qq-group-chat](./assets/imgs/qq-group-chat.png)
-
-### 微信群
-
-<img src="./assets/imgs/wechat-group-chat.jpeg" width = "50%" height = "50%" alt="JavaScript" align=center />
-
-(由于微信的限制，100个人以上只能邀请加入， 你可以添加我的机器人回复“大前端”拉你进群)
 
 ## 贡献
 
