@@ -3,7 +3,7 @@
 ![logo](./assets/imgs/logo.jpg)
 这是一份自己总结的关于准备前端面试的一个复习汇总项目，项目不定时更新。
 
-这不仅仅是一份用于求职面试的攻略，也是一份前端er用来检视自己，实现突破的宝典。
+这不仅仅是一份用于求职面试的攻略，也是一份前端 er 用来检视自己，实现突破的宝典。
 希望通过这个指南，大家可以打通自己的任督二脉，在前端的路上更进一步。
 
 本仓库大量采用图的形式来传达知识，所谓一图胜千言，希望通过这种图文并茂的表达方式
@@ -18,12 +18,12 @@
 ## 简介
 
 面试是一件很主观很难的事情。 面试不通过不代表你就不合格，同样地即使面试通过也不意味着你就合格了。
-作为候选人，通常会给你45分钟的时间来让你展示自己的技能。
-作为一名面试官，同样难以在这么短的时间里评估这个人是否适合这项工作。 
+作为候选人，通常会给你 45 分钟的时间来让你展示自己的技能。
+作为一名面试官，同样难以在这么短的时间里评估这个人是否适合这项工作。
 对于面试来说，没有任何一种标准能够适合所有人，面试官通常会覆盖某一个领域，但除此之外，他们会自行决定应该问哪些问题。
 
 准备面试，我们应该准备一些真正能够体现面试人水平的题目，比如一些编程题，设计题，框架选型等，不要过分
-拘泥于特别小的问题，尤其是API的问题，比如`==`的隐式转化，我个人很反感这种问题。
+拘泥于特别小的问题，尤其是 API 的问题，比如`==`的隐式转化，我个人很反感这种问题。
 相反面试官应该更关注`面试者是否了解前端开发的基本原理，而不是依赖更高级别的抽象。`
 比如你是否可以在不依赖库的情况下完成开发任务（当然实际情况很少这样），这样你才能彻底理解库在背后都做了什么。
 
@@ -31,14 +31,28 @@
 
 我是一个对技术充满兴趣的程序员, 擅长前端工程化，前端性能优化，前端标准化等。
 
-做过.net， 搞过Java，现在是一名前端工程师。拥有两年前端面试官的经验，
+做过.net， 搞过 Java，现在是一名前端工程师。拥有两年前端面试官的经验，
 对于面试的一些技术问题和套路有一定的认识和积累。
 
-除了我的本职工作外，我会在开源社区进行一些输出和分享，比较受欢迎的有[leetcode题解](https://github.com/azl397985856/leetcode)
+除了我的本职工作外，我会在开源社区进行一些输出和分享，比较受欢迎的有[leetcode 题解](https://github.com/azl397985856/leetcode)
 和[我的第一本小书](https://github.com/azl397985856/automate-everything)
 
 如果大家需要内推的可以找我，我这里有包括阿里，腾讯，头条，网易等很多公司的朋友。
 有需要可以直接群里联系我，或者发送到我的个人邮箱 [azl397985856@gmail.com]。
+
+## 模拟面试记录
+
+每期模拟面试都有一个参赛名额，不限制观众人数。观众不需要报名，面试开始后我会在群里发链接，大家点进来即可参加。形式是`B站直播+VSCode 协同`。
+
+要求:
+
+1.参赛人员需要安装 vscode 和对应插件 live share，并且要可以语音。
+
+2.参加面试的人需要提供你想面试的岗位级别和具体信息。 比如 web 前端 p5, nodejs 工程师 p6
+
+如果需要更为专业的模拟面试，可以免费报名参加《大前端模拟面试》，面试前会花半个小时左右提前了解候选人信息，做更切合你的面试。面试过程花大概半个小时进行面试，半个小时对面试的过程进行总结，并给出改进意见。包括但不限于简历， 基础技能，沟通能力，潜力等纬度分析。 杭州的小伙伴也可以选择现场面试(onsite)。整个过程采取公开的形式，即有观众参与，如果介意可以私聊我为你一对一
+
+- [大前端模拟面试 - 2019-12-14](./mock-interview/2019-12-14.md)
 
 ## 主题
 
@@ -68,7 +82,7 @@
 
 ### 面试的考察点
 
-上面介绍了面试的基本流程以及考察方向，接下来我们总结一下我们通常挂的原因有哪些? 
+上面介绍了面试的基本流程以及考察方向，接下来我们总结一下我们通常挂的原因有哪些?
 为此我们需要注意什么？有没有什么小技巧？
 我在这里进行了比较详细的[总结](./topics/surface/aspects.md)
 
@@ -77,27 +91,26 @@
 在面试之前大家应该都对自己有了一个定位，自己要面试的层级是什么样的，
 需要什么的技能，有什么要求。
 
-Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model都会不太一样，
-大家可以根据自己心仪的公司的Job Model作为参考，自检一下。
+Job Model 是 一个很重要的参考标准。 当然每个公司的 Job Model 都会不太一样，
+大家可以根据自己心仪的公司的 Job Model 作为参考，自检一下。
 
-比如我想要面试的是P7的岗位，那么P7的Job Model是什么呢？我可能需要提前了解一下。
-一般来说P7的岗位要求会有：
+比如我想要面试的是 P7 的岗位，那么 P7 的 Job Model 是什么呢？我可能需要提前了解一下。
+一般来说 P7 的岗位要求会有：
 
 1. 基础扎实。计算机网络/设计模式/正则/安全等，并且要深入了解各项技术的原理和设计，而不只是使用。
 2. 经验丰富。熟悉业内不同技术方案以及优缺点，并且能选择最切合当前业务的方案。
-3. 技术驱动。探索新技术，将新技术带入团队，并赋能业务。 
+3. 技术驱动。探索新技术，将新技术带入团队，并赋能业务。
 4. 软技能。协同能力强，带领团队或者跨团队完成目标的能力。
-...
+   ...
 
-大家可以根据自己的期望层级，以及心仪公司的Job Model进行自测。
+大家可以根据自己的期望层级，以及心仪公司的 Job Model 进行自测。
 
-我在这里画了一个简化版本的Job Modal，大家可以根据自己的实际情况找自己的目标，
+我在这里画了一个简化版本的 Job Modal，大家可以根据自己的实际情况找自己的目标，
 不同层级需要掌握的深度和广度是不一样的，大家根据自己的实际情况学习。
 
 ![job-model](./assets/imgs/topics/job-model/job-model.jpg)
 
 后续我计划会出一份详细的不同级别需要掌握的技能的列表。
-
 
 ### 简历 & 个人主页 📖
 
@@ -113,9 +126,9 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的Job Model�
 - [Edward Yang's web site](http://ezyang.com/)
 - [Michael Bradshaw's web site](http://www.mjbshaw.com/)
 
-另外github也可以用来做你的简历，[Github is my resume](http://pydanny.blogspot.com/2011/08/github-is-my-resume.html)，
+另外 github 也可以用来做你的简历，[Github is my resume](http://pydanny.blogspot.com/2011/08/github-is-my-resume.html)，
 其实我自己也维护了一个个人简历的项目，只不过目前只是用来做简历信息同步，没有做深层次的内容，
-我的github resume地址：https://github.com/azl397985856/resume
+我的 github resume 地址：https://github.com/azl397985856/resume
 
 我的个人网站地址： https://lucifer.ren/ ， 我并没有在个人网站放很多文章，根据个人喜好来吧，
 如果你想做的，把个人网站做成主库，然后写文章同步各大平台也是一个非常棒的做法。
@@ -144,7 +157,7 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 > 在学习接下来的东西之前，建议大家先打好基础，这里只推荐两本书，一本是《You-Dont-Know-JS》，另一本是《JavaScript: The Good Parts》。
 
-我非常不建议你没有系统学习JS之前就去刷题目，这是毫无意义的，根本无法从根本上理解。
+我非常不建议你没有系统学习 JS 之前就去刷题目，这是毫无意义的，根本无法从根本上理解。
 之后对前端技能的考察会越来越严格。大家系统性学习之后，推荐过来看一下我这里总结的东西，
 最后去网上找一些经典的题目，通过这些题目来检查自己，而不是一开始就去网上找题目做。
 
@@ -170,8 +183,6 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 本仓库只列举后两个部分，对于第一部分可以去我的另一个仓库 - [leetcode 题解](https://github.com/azl397985856/leetcode) 查看
 
-
-
 另外对于不同的阶段，我们应该采取不同的刷题策略。
 
 1. 初级阶段
@@ -192,16 +203,12 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 刷题找回感觉，如果能找到你想去的公司的真题进行练习就更好了，因此我也会考虑将题目按照公司进行分类。
 
-
-
-
 > ℹ️ 以下这些题目都是自己经历或者从网上整理下来的, 之后还会继续同步更新。
 
-对于编程题，可能会让你白板写，也可能让你用Online  Editor。
-因此我的建议，是掌握白板写，熟练至少一种Online  Editor，
-这样可以在适当时候要求面试官让你用你熟悉的Online  Editor书写。
-比较有名的Online Editor有JSBin , CodePen, StackBlitz 等，我个人比较推荐[StackBlitz](https://stackblitz.com/)
-
+对于编程题，可能会让你白板写，也可能让你用 Online Editor。
+因此我的建议，是掌握白板写，熟练至少一种 Online Editor，
+这样可以在适当时候要求面试官让你用你熟悉的 Online Editor 书写。
+比较有名的 Online Editor 有 JSBin , CodePen, StackBlitz 等，我个人比较推荐[StackBlitz](https://stackblitz.com/)
 
 > Tips: 如果不是白板写，一定要注意调试，即使没有做出来，但是良好的调试习惯和技能也能加分。
 
@@ -238,25 +245,25 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 - [千分位转数字](./topics/algorthimn/numFormat.md)
 - [将数字转化为中文(数字是 10 万以内)](./topics/algorthimn/numToChineseStr.md)
 - [已知数据格式，实现一个函数 fn 找出链条中所有的父级 id](./topics/algorthimn/findParents.md)
-- [获取页面所有的tagname](./topics/algorthimn/getAllHTMLTags.md)
-- [实现XPath](./topics/algorthimn/xpath.md)
+- [获取页面所有的 tagname](./topics/algorthimn/getAllHTMLTags.md)
+- [实现 XPath](./topics/algorthimn/xpath.md)
 
 ### CSS 🦋
 
 国外会有一些类似 `CSS/HTML 专家` 的岗位，可以看出这部分内容还是相对比较重要且难以精通的。
 
-这里我推荐medium社区的，来自Elad Shechter的关于CSS架构系列文章：
+这里我推荐 medium 社区的，来自 Elad Shechter 的关于 CSS 架构系列文章：
 
 - [Normalize CSS or CSS Reset?!](https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e)
 - [CSS Architecture — Folders & Files Structure](https://medium.com/@elad/css-architecture-folders-files-structure-f92b40c78d0b)
 - [CSS Architecture for Multiple Websites](https://medium.com/@elad/css-architecture-for-multiple-websites-ad696c9d334)
 
-> 我已经联系了几个CSS方面的专家，之后会在这里给几个链接过去，目前还在整理中。
+> 我已经联系了几个 CSS 方面的专家，之后会在这里给几个链接过去，目前还在整理中。
 
 - [布局]() (施工中)
 - [响应式]() (施工中)
 - [自适应]() (施工中)
-- [BEM等CSS架构]() (施工中)
+- [BEM 等 CSS 架构]() (施工中)
 
 ### 设计题 🎩
 
@@ -300,20 +307,21 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 
 #### React
 
-React考察的点就那么几点，从简单的生命周期，特定API的使用。 到SetState的原理，
-虚拟DOM，以及DOM diff算法等。 这部分需要大家对React有系统性认识。
+React 考察的点就那么几点，从简单的生命周期，特定 API 的使用。 到 SetState 的原理，
+虚拟 DOM，以及 DOM diff 算法等。 这部分需要大家对 React 有系统性认识。
 
-如果你想系统性学习React，推荐看官网。 
-除了官网，我这里推荐一份资料 - [全面介绍React](https://jscomplete.com/learn/complete-intro-react#managing-side-effects)
+如果你想系统性学习 React，推荐看官网。
+除了官网，我这里推荐一份资料 - [全面介绍 React](https://jscomplete.com/learn/complete-intro-react#managing-side-effects)
 
 这部分其实可以参考我之前开的一个仓库[从零开始开发一个 React](https://github.com/azl397985856/mono-react)
 
-我后期会陆续增加一些对于React常见问题的汇总，大家保持关注即可。
+我后期会陆续增加一些对于 React 常见问题的汇总，大家保持关注即可。
+
 #### Redux
 
 官方给出的介绍是“Redux is a predictable state container for JavaScript apps.”。
 
-Redux中核心就是一个单一的state。state通过闭包的形式存放在redux store中，保证其是只读的。如果你想要更改state，只能通过发送action进行，action本质上就是一个普通的对象。
+Redux 中核心就是一个单一的 state。state 通过闭包的形式存放在 redux store 中，保证其是只读的。如果你想要更改 state，只能通过发送 action 进行，action 本质上就是一个普通的对象。
 
 我用 20 行代码左右实现了一个迷你版本的 redux，帮助自己理解 redux 的核心思想，这里是[原文](https://juejin.im/post/5a9e6a61f265da239866c7a3)。
 
@@ -327,7 +335,6 @@ Redux中核心就是一个单一的state。state通过闭包的形式存放在re
 
 > vuex 部分我建议等到 vue 更新 3.0 之后再去研究 ta。
 
-
 ### 浏览器
 
 <img src="./assets/imgs/topics/browser/browser-cover.png" width = "40%" height = "40%" alt="浏览器" align=center />
@@ -340,7 +347,7 @@ Redux中核心就是一个单一的state。state通过闭包的形式存放在re
 
 - BOM API
 
-- Chrome浏览器中的进程和线程
+- Chrome 浏览器中的进程和线程
 
 ### 小程序
 
@@ -358,10 +365,9 @@ Redux中核心就是一个单一的state。state通过闭包的形式存放在re
 
 ### 原生通信
 
-
 如果你做过混合式开发的话，原生通信一定是不能绕过的点。
 很多时候我们使用的都是封装好的方法，我们可以直接调用，甚至支持
-Promise这种模式。 使用起来就好像“浏览器的原生API”一样方便。
+Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样方便。
 这从某种程度上来说，扩展了浏览器的功能。
 
 - [h5 与原生 app 交互的原理](https://segmentfault.com/a/1190000016759517)
@@ -378,10 +384,9 @@ Promise这种模式。 使用起来就好像“浏览器的原生API”一样方
 
 ![network-cover](./assets/imgs/topics/network/network-cover.jpg)
 
-
 - [协议森林（大话网络协议）](https://www.cnblogs.com/vamei/archive/2012/12/05/2802811.html)
-- [从输入URL到页面展示发生了什么]() (施工中) 
-> 上面这个我会写地非常详细，敬请期待
+- [从输入 URL 到页面展示发生了什么]() (施工中)
+  > 上面这个我会写地非常详细，敬请期待
 - [输入 ping IP 后敲回车，发包前会发生什么？](./topics/network/ping.md)
 - [网络通讯模型](./topics/network/network-model.md)
 - [子网掩码](./topics/network/net-mask.md)
@@ -395,7 +400,7 @@ Promise这种模式。 使用起来就好像“浏览器的原生API”一样方
 
 <img src="./assets/imgs/topics/node/node-cover.png" alt="node" width="50%" align=center />
 
-> 预计11月份开始整理
+> 预计 11 月份开始整理
 
 如果你要做全栈或者后端，那么 node 是一个相对平滑的选择
 
@@ -403,21 +408,21 @@ Promise这种模式。 使用起来就好像“浏览器的原生API”一样方
 - [node 集群](./topics/node/cluster.md)(施工中)
 - [node 监控](./topics/node/monitor.md)(施工中)
 - [node 底层架构和原理](./topics/node/internal.md)(施工中)
-- [Deno (Ryan Dahl 2018年11月台北JSDC演讲PPT翻译版)](https://zhuanlan.zhihu.com/p/51017778)
+- [Deno (Ryan Dahl 2018 年 11 月台北 JSDC 演讲 PPT 翻译版)](https://zhuanlan.zhihu.com/p/51017778)
 - [express 和 koa 等 web 框架](./topics/node/web-framework.md)(施工中)
 
 ### 操作系统 💻
 
-- [内存分配](./topics/os/memory/allocation.md)  
+- [内存分配](./topics/os/memory/allocation.md)
 - [线程和进程](./topics/os/process/thread.md)(施工中)
 
 ### 包管理 📦
 
 随着前端项目越来越复杂，我们需要组织的模块数量增加，包管理慢慢浮出水面，
-大家都开始讨论这个东西。 很多时候，一个项目的业务代码还不到依赖项的1%。
+大家都开始讨论这个东西。 很多时候，一个项目的业务代码还不到依赖项的 1%。
 
 我们拿三个比较经典的包管理工具来讲解一下他们试图解决的问题，以及分别的优缺点，
-按照时间线来说他们分别是npm,yarn, tink。
+按照时间线来说他们分别是 npm,yarn, tink。
 
 - [npm](http://npmjs.com)
 - [yarn](https://yarnpkg.com/zh-Hans/https://yarnpkg.com/zh-Hans/)
@@ -430,19 +435,19 @@ Promise这种模式。 使用起来就好像“浏览器的原生API”一样方
 
 在互联网网站百花齐放的今天，网站响应速度是用户体验的第一要素，其重要性不言而喻，这里有几个关于响应时间的重要条件：
 
-用户在浏览网页时，不会注意到少于0.1秒的延迟；
+用户在浏览网页时，不会注意到少于 0.1 秒的延迟；
 
-少于1秒的延迟不会中断用户的正常思维， 但是一些延迟会被用户注意到；
+少于 1 秒的延迟不会中断用户的正常思维， 但是一些延迟会被用户注意到；
 
-延迟时间少于10秒，用户会继续等待响应；
+延迟时间少于 10 秒，用户会继续等待响应；
 
-延迟时间超过10秒后，用户将会放弃并开始其他操作；
+延迟时间超过 10 秒后，用户将会放弃并开始其他操作；
 
-因此大家都开始注重性能优化，很多厂商都开始做一些性能优化。比较有名的是雅虎军规，不过随着浏览器和协议等的发展，有一些已经逐渐被淘汰了。因此建议大家以历史的目光看待它。比如.尽量减少HTTP请求数这一条，在HTTP2协议下就不管用了，因为HTTP2实现了HTTP复用，HTTP请求变少，反而降低性能。因此一定要结合历史环境看待具体的优化原则和手段，否则会适得其反。
+因此大家都开始注重性能优化，很多厂商都开始做一些性能优化。比较有名的是雅虎军规，不过随着浏览器和协议等的发展，有一些已经逐渐被淘汰了。因此建议大家以历史的目光看待它。比如.尽量减少 HTTP 请求数这一条，在 HTTP2 协议下就不管用了，因为 HTTP2 实现了 HTTP 复用，HTTP 请求变少，反而降低性能。因此一定要结合历史环境看待具体的优化原则和手段，否则会适得其反。
 
 > 雅虎军规中文版： http://www.cnblogs.com/xianyulaodi/p/5755079.html
 
-随着移动互联网的高速发展，移动终端的数量正在以指数级增长，很多厂商对于移动端体验都开始重视起来了。比如Google Chrome 的工程师 Alex就提出了Progressive Web App（以下简称PWA），用来提高移动端web的性能。PWA的核心是Service Worker， 通过它可以使得在JS主线程之外，程序员通过编程的方式控制网络请求，结合浏览器本身的缓存，往往可以达到非常棒的用户体验。PWA提出了许多类似Native的“功能”- 比如离线加载和桌面快捷方式，使得移动端web体验更加友好。另外加上web端本身的特性-比如快速迭代，可索引（你可以通过搜索引擎搜索，而native app 则不行）等，使得更多的人投入到给web端用户提供更佳的用户体验的PWA中去。Google在更早的时候，提出了AMP。 2017年Google dev上海站就宣传了PWA 和 AMP，并且通过一张动图形象地展示了两者（PWA的P和A翻过来，然后W上下翻转就是AMP，反之亦然）。AMP是一种面向手机端的轻量级的web展现，通过将重量级元素重新实现等方式提高了手机端性能。 另外诸如使用asm.js 使得代码更容易编译成机器指令，也是性能优化的一环。如果你仔细查看应用执行的profile的时候，你会发现js代码compile的时间会很久，尤其你写了很多无用js代码，或者没必要第一时间执行的代码的时候，这种影响更加大。js代码最终也是编译成二进制给机器执行，而js是动态语言，也就是说js代码是执行到哪编译到哪，这是和java这样的静态语言的一个很大的差别。V8已经对这部分做了相当大的优化，一般情况下我们不必担心，通常来讲这也不会成为性能瓶颈，因为这些时间和网络IO的时间根本不是一个数量级。但是在特定场合，提前编译成更容易解释执行的代码，可能就会派上用场。
+随着移动互联网的高速发展，移动终端的数量正在以指数级增长，很多厂商对于移动端体验都开始重视起来了。比如 Google Chrome 的工程师 Alex 就提出了 Progressive Web App（以下简称 PWA），用来提高移动端 web 的性能。PWA 的核心是 Service Worker， 通过它可以使得在 JS 主线程之外，程序员通过编程的方式控制网络请求，结合浏览器本身的缓存，往往可以达到非常棒的用户体验。PWA 提出了许多类似 Native 的“功能”- 比如离线加载和桌面快捷方式，使得移动端 web 体验更加友好。另外加上 web 端本身的特性-比如快速迭代，可索引（你可以通过搜索引擎搜索，而 native app 则不行）等，使得更多的人投入到给 web 端用户提供更佳的用户体验的 PWA 中去。Google 在更早的时候，提出了 AMP。 2017 年 Google dev 上海站就宣传了 PWA 和 AMP，并且通过一张动图形象地展示了两者（PWA 的 P 和 A 翻过来，然后 W 上下翻转就是 AMP，反之亦然）。AMP 是一种面向手机端的轻量级的 web 展现，通过将重量级元素重新实现等方式提高了手机端性能。 另外诸如使用 asm.js 使得代码更容易编译成机器指令，也是性能优化的一环。如果你仔细查看应用执行的 profile 的时候，你会发现 js 代码 compile 的时间会很久，尤其你写了很多无用 js 代码，或者没必要第一时间执行的代码的时候，这种影响更加大。js 代码最终也是编译成二进制给机器执行，而 js 是动态语言，也就是说 js 代码是执行到哪编译到哪，这是和 java 这样的静态语言的一个很大的差别。V8 已经对这部分做了相当大的优化，一般情况下我们不必担心，通常来讲这也不会成为性能瓶颈，因为这些时间和网络 IO 的时间根本不是一个数量级。但是在特定场合，提前编译成更容易解释执行的代码，可能就会派上用场。
 
 这部分可以参考我之前写的[文章](https://github.com/azl397985856/automate-everything/blob/master/docs/chapter4.md)
 
@@ -471,9 +476,9 @@ Promise这种模式。 使用起来就好像“浏览器的原生API”一样方
 
 ### 状态管理
 
-状态管理这个东西在React和Vue这种视图框架大规模出现之后才出现的东西，
-因此React或者Vue只是解决了状态到视图的映射关系，没有解决数据的产生和维护问题，
-因此状态管理框架应运而生，比较著名的有redux， mobx，vuex等。
+状态管理这个东西在 React 和 Vue 这种视图框架大规模出现之后才出现的东西，
+因此 React 或者 Vue 只是解决了状态到视图的映射关系，没有解决数据的产生和维护问题，
+因此状态管理框架应运而生，比较著名的有 redux， mobx，vuex 等。
 
 - [状态管理的本质是什么？我们为什么需要它]() (施工中)
 
@@ -493,9 +498,9 @@ Promise这种模式。 使用起来就好像“浏览器的原生API”一样方
 
 > 如果岗位对 node 有要求，那么安全问题肯定会更多，因此这部分需要更加关注。
 
-- [XSS](https://tech.meituan.com/2018/09/27/fe-security.html) 
-- [csrf](https://juejin.im/post/5bc009996fb9a05d0a055192) 
-- [运营商劫持](http://bigsec.com/bigsec-news/wechat-16824-yunyingshangjiechi) 
+- [XSS](https://tech.meituan.com/2018/09/27/fe-security.html)
+- [csrf](https://juejin.im/post/5bc009996fb9a05d0a055192)
+- [运营商劫持](http://bigsec.com/bigsec-news/wechat-16824-yunyingshangjiechi)
 
 ### seo
 
@@ -506,7 +511,7 @@ SEO 一直是一个非常重要的话题，尤其是依赖搜索引擎排名的�
 ### shell
 
 在工作中，我们时不时会做一些自动化或者批处理，这个时候掌握 shell 一种相对直接完成任务的方式。
-shell 功能强大且移植性好，尤其在运维领域被广泛使用。我单独有一个项目是专门[学习shell](https://github.com/azl397985856/learn-shell)的，感兴趣的可以关注一下。
+shell 功能强大且移植性好，尤其在运维领域被广泛使用。我单独有一个项目是专门[学习 shell](https://github.com/azl397985856/learn-shell)的，感兴趣的可以关注一下。
 
 作为程序员，掌握 shell 是一种进阶。
 
@@ -548,24 +553,26 @@ TS 对于构建大型系统有着得天独厚的优势，丰富的类型签名�
 
 标准化能给我们带来什么？ 那就太多了，如果没有标准化，我们的世界不能想象会乱成什么样。
 
-想象一下如果没有`USB`  `TypeC`等这些规范，我们会多么不方便，更不要说别的了。
+想象一下如果没有`USB` `TypeC`等这些规范，我们会多么不方便，更不要说别的了。
 
 前端的标准化组织化就两个，一个是`TC39`, 一个是`W3C`，关注好这两个组织，
-对于你理解大方向很关键。 下面是官方的Github仓库：
+对于你理解大方向很关键。 下面是官方的 Github 仓库：
 
 - [ECMA TC39](https://github.com/tc39?type=source)
 - [W3C](https://github.com/w3c?type=source)
 
 > 重点关注一些标准化组织的信息和社区的讨论。
 
-这里再介绍一个justjavac(迷渡)创建的中文版的[介绍最新的 ECMAScript/JavaScript 规范，以及 TC39 的提案进度 ](https://esnext.justjavac.com/)
-，这里可以了解到一些TC39，以及ES最新的一些资讯信息。
+这里再介绍一个 justjavac(迷渡)创建的中文版的[介绍最新的 ECMAScript/JavaScript 规范，以及 TC39 的提案进度 ](https://esnext.justjavac.com/)
+，这里可以了解到一些 TC39，以及 ES 最新的一些资讯信息。
+
 ### 模块化
 
 我在[模块化和组件化](https://github.com/azl397985856/automate-everything/blob/master/docs/chapter2.md) 这篇文章
 讲解了模块化的一部分基础知识，在这里我还会讲解一些大家对模块化的误区，以及一些经典问题, eg: AMD，cjs,umd,esm 区别问题
 
 - [循环引用问题](./topics/modular/circular.md)
+
 ### web assembly
 
 > 待整理
@@ -583,11 +590,11 @@ WebAssembly 是一种可以使用非 JavaScript 编程语言编写代码并且�
 
 可以参考我之前开的一个仓库[从零开始开发一个 Webpack](https://github.com/azl397985856/mono-webpack)
 
-当然了解了webpack的基本原理还不够，面试中还会问一些工程性的问题，比如：
+当然了解了 webpack 的基本原理还不够，面试中还会问一些工程性的问题，比如：
 
-- [如何用webpack管理应用的环境相关配置]() （施工中）
-- [如何用webpack做一些基础的性能优化]()（施工中）
-- [如何用webpack的配置项如何管理]()（施工中）
+- [如何用 webpack 管理应用的环境相关配置]() （施工中）
+- [如何用 webpack 做一些基础的性能优化]()（施工中）
+- [如何用 webpack 的配置项如何管理]()（施工中）
 
 #### 触发器
 
@@ -604,9 +611,9 @@ linter 是为了帮我我们找出 bug 而存在的，不要过分高估它的�
 
 #### 任务管理
 
-在npm出现之前，做任务管理的方式主要是自己处理或者记住第三方库，比如`grunt`，但是npm出现之后，
-大家发现其实`npm script` + `构建工具`就可以解决前端绝大多数问题了。包括VSCODE中的任务管理，其实
-都有和npm有着很好的集成。
+在 npm 出现之前，做任务管理的方式主要是自己处理或者记住第三方库，比如`grunt`，但是 npm 出现之后，
+大家发现其实`npm script` + `构建工具`就可以解决前端绝大多数问题了。包括 VSCODE 中的任务管理，其实
+都有和 npm 有着很好的集成。
 
 ![task-runner](./assets/imgs/topics/work-flow/task-runner.jpg)
 
@@ -640,7 +647,6 @@ Git，SVN 只是代码管理的工具，不等同于代码管理。
 
 > 待整理
 
-
 ### 监控
 
 - 监控源码变更（比如基础库变更警告）
@@ -655,14 +661,14 @@ Git，SVN 只是代码管理的工具，不等同于代码管理。
 - 测试的类型
   - 单元测试
   - 接口测试
-  - UI自动化测试（核心流程回归的 UI 自动化）
+  - UI 自动化测试（核心流程回归的 UI 自动化）
 - 测试框架
 - 测试工作流
 
 ### 数据层
 
 - BFF
-- [干货 | 万字长文全面解析GraphQL，携程微服务背景下的前后端数据交互方案](https://mp.weixin.qq.com/s/PovMmO6ddcpBO5A2WtY89Q)
+- [干货 | 万字长文全面解析 GraphQL，携程微服务背景下的前后端数据交互方案](https://mp.weixin.qq.com/s/PovMmO6ddcpBO5A2WtY89Q)
 
 ### 跨端
 
@@ -712,13 +718,12 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 使用微前端，主要有如下好处：
 
-
 1. 由于代码可以独立开发，部署等。因此如果拆分良好的话代码会更少，更容易维护。
 
 2. 不同的业务部门合作更加容易，团队更加独立自治。
 
 3. 对于遗留系统，我们可以选择微前端的方式进行改造，而不是直接改变遗留系统的内部实现，
-相对而言更加稳健。
+   相对而言更加稳健。
 
 一个典型的微前端系统大概是这样的：
 
@@ -739,7 +744,8 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 闭着眼睛使用你的产品，测试看看它是否是"无障碍"的。在无法用眼看无法用鼠标，仅仅通过屏幕阅读软件对界面 的描述去操作你的产品时，人们还能顺利地使用那些呕心沥血做出来的功能吗？
 
 - [开发者必备 — Web 无障碍手册](https://link.zhihu.com/?target=https%3A//www.telerik.com/blogs/web-accessibility-guidebook-for-developers)
-> 译文地址： https://zhuanlan.zhihu.com/p/76438798
+  > 译文地址： https://zhuanlan.zhihu.com/p/76438798
+
 ### 新技术 🆕
 
 > 还没开始整理
@@ -764,8 +770,8 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 - [Java 基础学习（廖雪峰）](https://www.liaoxuefeng.com/wiki/1252599548343744)
 - [Python 开发基础 (微软出品)](https://github.com/microsoft/c9-python-getting-started)
-- [Go语言圣经(英文版)](http://www.gopl.io/)
-> [Go语言圣经(中文版)](http://shouce.jb51.net/gopl-zh/)
+- [Go 语言圣经(英文版)](http://www.gopl.io/)
+  > [Go 语言圣经(中文版)](http://shouce.jb51.net/gopl-zh/)
 - [运维知识](./topics/ends/ops.md)（施工中）
 - [Github 和博客](./topics/ends/share.md)（施工中）
 
@@ -773,32 +779,42 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 ### 各大公司面试信息
 
-> 声明：⚠️ 其中P级别的划分是结合自己对题目难度的理解，以及作者本人的陈述定义的。
-这部分是很难定义的，但是为了给出大致的边界，我这里还是做了分类。如有不妥，请多多包涵。
+> 声明：⚠️ 其中 P 级别的划分是结合自己对题目难度的理解，以及作者本人的陈述定义的。
+> 这部分是很难定义的，但是为了给出大致的边界，我这里还是做了分类。如有不妥，请多多包涵。
 
 - 阿里巴巴
- 1. P5
-   - [面试分享：2018阿里巴巴前端面试总结(题目+答案)](https://juejin.im/entry/5a968ba56fb9a06340524128)
- 2. P6
-   - [前端面试分享: 两年经验社招-阿里巴巴](https://segmentfault.com/a/1190000013538920)
-   - [面试分享：一年经验初探阿里巴巴前端社招](https://github.com/jawil/blog/issues/22)
-   - [阿里巴巴前端面试分享-社招（p6）](https://zhuanlan.zhihu.com/p/57131643)
+
+1.  P5
+
+- [面试分享：2018 阿里巴巴前端面试总结(题目+答案)](https://juejin.im/entry/5a968ba56fb9a06340524128)
+
+2.  P6
+
+- [前端面试分享: 两年经验社招-阿里巴巴](https://segmentfault.com/a/1190000013538920)
+- [面试分享：一年经验初探阿里巴巴前端社招](https://github.com/jawil/blog/issues/22)
+- [阿里巴巴前端面试分享-社招（p6）](https://zhuanlan.zhihu.com/p/57131643)
 
 - 头条
- 1. P4
-   - [今日头条前端面试-2018.03.23](https://blog.csdn.net/csu_passer/article/details/79668028)
-   - [记一次字节跳动前端面试，已拿offer](https://www.nowcoder.com/discuss/177482)
-   - [字节跳动 前端 三面面经](https://www.nowcoder.com/discuss/171705)
-   - [2019 字节跳动春招 web前端面试题 一面](https://www.nowcoder.com/discuss/170779)
-   - [字节跳动前端实习一面二面HR面面经](https://www.nowcoder.com/discuss/170549)
-   - [头条前端一面](https://www.nowcoder.com/discuss/171320)
-   - [记一次今日头条前端面试](https://www.imooc.com/article/40112)
- 2. P5
-   - [前端面试-今日头条](https://github.com/linghuam/myblog/blob/master/source/_others/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95-%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1.md)
-   - [字节跳动春招前端三轮面经](https://www.nowcoder.com/discuss/167553)
-   - [今日头条前端三轮面试面经](https://www.nowcoder.com/discuss/105513)
- 3. P6 
-   - [字节跳动，前端面试](https://www.nowcoder.com/discuss/174632)
+
+1.  P4
+
+- [今日头条前端面试-2018.03.23](https://blog.csdn.net/csu_passer/article/details/79668028)
+- [记一次字节跳动前端面试，已拿 offer](https://www.nowcoder.com/discuss/177482)
+- [字节跳动 前端 三面面经](https://www.nowcoder.com/discuss/171705)
+- [2019 字节跳动春招 web 前端面试题 一面](https://www.nowcoder.com/discuss/170779)
+- [字节跳动前端实习一面二面 HR 面面经](https://www.nowcoder.com/discuss/170549)
+- [头条前端一面](https://www.nowcoder.com/discuss/171320)
+- [记一次今日头条前端面试](https://www.imooc.com/article/40112)
+
+2.  P5
+
+- [前端面试-今日头条](https://github.com/linghuam/myblog/blob/master/source/_others/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95-%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1.md)
+- [字节跳动春招前端三轮面经](https://www.nowcoder.com/discuss/167553)
+- [今日头条前端三轮面试面经](https://www.nowcoder.com/discuss/105513)
+
+3.  P6
+
+- [字节跳动，前端面试](https://www.nowcoder.com/discuss/174632)
 
 ### HR
 
@@ -812,11 +828,11 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 模拟面试指的是按照实际的面试流程进行模拟，常见的有测试题目模拟，现场模拟。
 
-测试题目模拟会比较多，大家可以使用OJ平台进行测试，也可以找一些题目自己测试。
+测试题目模拟会比较多，大家可以使用 OJ 平台进行测试，也可以找一些题目自己测试。
 
 现场模拟通常需要一些资深的面试官对你进行考察，你可以找自己的同事或者前辈，也可以花钱
 找别人帮忙。 当然如果你不嫌弃，找我进行`Mock Interview` 也是可以的,
-我的个人邮箱 [azl397985856@gmail.com] 
+我的个人邮箱 [azl397985856@gmail.com]
 
 这里列举一些测试题目：
 
@@ -829,7 +845,7 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 ## 关注我
 
-最近我重新整理了下自己的公众号，并且我还给他换了一个名字《脑洞前端》，它是一个帮助你打开大前端新世界大门的钥匙🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
+最近我重新整理了下自己的公众号，并且我还给他换了一个名字《脑洞前端》，它是一个帮助你打开大前端新世界大门的钥匙 🔑，在这里你可以听到新奇的观点，看到一些技术尝新，还会收到系统性总结和思考。
 
 我会尽量通过图的形式来阐述一些概念和逻辑，帮助大家快速理解，图解前端是我的目标。
 
@@ -845,7 +861,6 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 对于前端的技能图谱，我比较推荐[这个网站](https://roadmap.sh/frontend)。
 这个网站相对于其他的前端技能图谱，更新地更快一点，其他的技能图谱很多都落伍了。
-
 
 ## 贡献
 
