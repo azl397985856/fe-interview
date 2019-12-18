@@ -5,7 +5,7 @@ var name = "Heternally";
 var obj = {
   name: "zl",
   foo: function() {
-    console.log(this.bar);
+    console.log(this.name);
   }
 };
 
