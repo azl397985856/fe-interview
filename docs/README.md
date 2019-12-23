@@ -288,7 +288,7 @@ JavaScript 是前端基础中的基础了, 这里的面试题目层出不穷，�
 - [单例模式](./topics/design-pattern/singleton.md)
 - [策略模式](./topics/design-pattern/strategy.md)
 - [代理模式](./topics/design-pattern/proxy.md)
-- [观察者模式](./topics/design-pattern/observer.md)(施工中)
+- [观察者模式](./topics/design-pattern/observer.md)
 - [适配器模式](./topics/design-pattern/adapter.md)(施工中)
 - [迭代器模式](./topics/design-pattern/iterator.md) (施工中)
 - [工厂模式](./topics/design-pattern/factory.md)(施工中)
