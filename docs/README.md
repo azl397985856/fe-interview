@@ -410,6 +410,23 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 - [HTTPS](./topics/network/https.md)(施工中)
 - [DNS](./topics/network/dns.md)(施工中)
 
+如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
+
+- WebSocket 工作在七层（或者四层）中的哪一层？和 HTTP 是什么关系？ 是基于 UDP 的还是 TCP 的？
+- TCP 为什么是三次握手？为什么是四次挥手？
+- CDN 的工作原理是什么？
+- 运营商劫持是什么？如何防范？
+- HTTPS 一定是安全的么？如果不是，那么在什么情况下是不安全的？
+- 如何劫持 HTTPS 请求。 比如你需要抓 HTTPS 的包，怎么做？
+- 支付宝和微信的离线支付是怎么做的？
+- Token 和 Cookie 有什么区别和联系呢？其分别是为了解决什么样的事情？
+- WebSocket 需要 cookie 么？为什么？
+- 如果访问你的 APP 很慢，你自己无法重现。 初步定位到网络问题， 那么你怎么能具体定位到问题呢？
+- traceroute, Ping 的原理是什么？
+- 192.168.0.1 和 192.168.1.1 如何通信？
+- DNS 是如何泄漏个人隐私的？怎么防范？
+- 从网络协议模型（七层 or 四层）的角度分析一下，浏览器访问 192.168.3.4:8088 的具体过程。
+
 ### node
 
 <img src="./assets/imgs/topics/node/node-cover.png" alt="node" width="50%" align=center />
