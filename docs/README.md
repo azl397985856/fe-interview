@@ -331,6 +331,10 @@ React 考察的点就那么几点，从简单的生命周期，特定 API 的使
 
 我后期会陆续增加一些对于 React 常见问题的汇总，大家保持关注即可。
 
+如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
+
+- React 的虚拟 DOM diff 算法一定比直接操作 DOM 快么？为什么？
+
 #### Redux
 
 官方给出的介绍是“Redux is a predictable state container for JavaScript apps.”。
@@ -421,6 +425,7 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 - 支付宝和微信的离线支付是怎么做的？
 - Token 和 Cookie 有什么区别和联系呢？其分别是为了解决什么样的事情？
 - WebSocket 需要 cookie 么？为什么？
+- WebSocket 是怎么实现点对点通信和广播通信的？
 - 如果访问你的 APP 很慢，你自己无法重现。 初步定位到网络问题， 那么你怎么能具体定位到问题呢？
 - traceroute, Ping 的原理是什么？
 - 192.168.0.1 和 192.168.1.1 如何通信？
@@ -440,7 +445,16 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 - [node 监控](./topics/node/monitor.md)(施工中)
 - [node 底层架构和原理](./topics/node/internal.md)(施工中)
 - [Deno (Ryan Dahl 2018 年 11 月台北 JSDC 演讲 PPT 翻译版)](https://zhuanlan.zhihu.com/p/51017778)
+- [What’s Deno, and how is it different from Node.js?](https://blog.logrocket.com/what-is-deno/)
+- [Deno, A New Way to JavaScript?(Vedio)](https://www.youtube.com/watch?v=z6JRlx5NC9E)
 - [express 和 koa 等 web 框架](./topics/node/web-framework.md)(施工中)
+
+如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
+
+- node 如何充分利用多核 CPU？
+- node 是如何实现多个进程监听同一个端口的？为什么不会报“端口被占用”？
+- deno 相对 node 有哪些优化？
+- node 中的 buffer 是什么？ Stream 是什么？ 流的种类有哪些？听说过 pull-stream 么？
 
 ### 操作系统 💻
 
@@ -482,6 +496,13 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 
 这部分可以参考我之前写的[文章](https://github.com/azl397985856/automate-everything/blob/master/docs/chapter4.md)
 
+如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
+
+- 一个应用使用一段时间就会很卡，可能是什么原因？
+- 一个应用首屏加载时间超级长，如果让你来优化，你会怎么做？
+- 前端常见的优化手段有哪些？
+- 性能优化的闭环是什么？
+
 ### 编程范式
 
 常见的编程范式有`函数式编程`、`面向对象编程`、`响应式编程`等。
@@ -512,6 +533,11 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 因此状态管理框架应运而生，比较著名的有 redux， mobx，vuex 等。
 
 - [状态管理的本质是什么？我们为什么需要它]() (施工中)
+
+如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
+
+- GraphQL 可以当作状态管理框架使用么？
+- 我为什么要用状态管理框架，直接存到全局不香么？
 
 ### 项目经验
 
