@@ -10,8 +10,8 @@
 开发过程中，观察者模式经常被用到，最典型的例子就是事件监听。
 
 ```js
-a.addEventListener('event', b)
-a.addEventListener('event', c)
+a.addEventListener('eventName', b)
+a.addEventListener('eventName', c)
 ```
 
 这里a是观察目标，b/c是观察者，当a更新时，通过event将消息传递给b/c，b/c作出自己的行为
@@ -32,10 +32,10 @@ class EventBus {
   on(eventName: string, fn: Listener) {
     const { listenerMap } = this;
     if (!listenerMap.has(eventName)) {
-      listenerMap.set(event, []);
+      listenerMap.set(eventName, []);
     }
 
-    listenerMap.get(event).push(fn);
+    listenerMap.get(eventName).push(fn);
   }
 
   emit(eventName: string, info?: unknown) {
