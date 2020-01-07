@@ -18,45 +18,45 @@ a.addEventListener('event', c)
 
 
 ## 实现
-实现一个观察者模式，其实就是实现一个Event-Bus
+Event-Bus 就是观察者模式的一个典型例子，我们一起来实现一下：
 
 ```typescript
-type Listener = (event: String, info: unknown) => unknown;
+type Listener = (eventName: String, info: unknown) => unknown;
 
 class EventBus {
-  public listenerMap: Map<string, Listener[]>;
+  listenerMap: Map<string, Listener[]>;
   constructor() {
     this.listenerMap = new Map();
   }
 
-  on(event: string, fn: Listener) {
+  on(eventName: string, fn: Listener) {
     const { listenerMap } = this;
-    if (!listenerMap.has(event)) {
+    if (!listenerMap.has(eventName)) {
       listenerMap.set(event, []);
     }
 
     listenerMap.get(event).push(fn);
   }
 
-  emit(event: string, info?: unknown) {
+  emit(eventName: string, info?: unknown) {
     const { listenerMap } = this;
-    if (!listenerMap.has(event)) {
+    if (!listenerMap.has(eventName)) {
       return;
     }
 
-    const listeners = listenerMap.get(event);
-    listeners.forEach(listener => listener(event, info));
+    const listeners = listenerMap.get(eventName);
+    listeners.forEach(listener => listener(eventName, info));
   }
 
-  off(event: string) {
+  off(eventName: string) {
     const { listenerMap } = this;
-    if (listenerMap.has(event)) {
-      listenerMap.delete(event);
+    if (listenerMap.has(eventName)) {
+      listenerMap.delete(eventName);
     }
   }
 }
 ```
 
 ## 参考
-[维基百科](https://zh.wikipedia.org/wiki/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F)
-[观察者模式](https://design-patterns.readthedocs.io/zh_CN/latest/behavioral_patterns/observer.html)
+- [维基百科](https://zh.wikipedia.org/wiki/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F)
+- [观察者模式](https://design-patterns.readthedocs.io/zh_CN/latest/behavioral_patterns/observer.html)
