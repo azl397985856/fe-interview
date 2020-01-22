@@ -640,6 +640,21 @@ WebAssembly 是一种可以使用非 JavaScript 编程语言编写代码并且�
 
 - [什么是 web assembly](./topics/wasm/what.md)
 
+### WebRTC
+
+Web Realtime Communication（简称 WebRTC），是一种广泛应用在前端的音视频通信技术。事实上，它不仅仅可以用来处理音视频，还可以使用`RTCDataChannel` API 处理别的数据。如今 WebRTC 已经被主流浏览器所支持。
+
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gb5hv2c15lj30za0h1wh8.jpg)
+
+WebRTC 的功能主要有：
+
+- 获取本地用户的音视频流（通俗理解为打开摄像头和麦克风，并且麦克风和摄像头的数据能够被你拿到并处理）
+- 获取远程用户的音视频（通俗理解为上面的基础上，进行视频通话）
+- 录制音视频
+- 传递数据
+
+值得注意的是，WebRTC 是点对点通信（P2P）。关于 WebRTC 的入门学习资料，我推荐直接看官方的 [codelabs](https://codelabs.developers.google.com/codelabs/webrtc-web/#0)，拥有互动式学习体验哦。
+
 ### 工作流 ⏳
 
 <img src="./assets/imgs/topics/work-flow/work-flow-cover.png" width = "70%" height = "70%" alt="wf" align=center />
