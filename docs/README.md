@@ -173,8 +173,8 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 - [引用和操作符优先级](./topics/js/reference&priority.md)
 - [原型和继承](./topics/js/prototype.md)
 - [this](./topics/js/this.md)
-- [执行上下文（EC）](./topics/js/EC.md)（施工中）
-- [ES6+](es6+.md)（施工中）
+  <!-- - [执行上下文（EC）](./topics/js/EC.md)（施工中）
+- [ES6+](es6+.md)（施工中） -->
 
 如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
 
@@ -279,10 +279,10 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 
 > 我已经联系了几个 CSS 方面的专家，之后会在这里给几个链接过去，目前还在整理中。
 
-- [布局]() （施工中）
+<!-- - [布局]() （施工中）
 - [响应式]() （施工中）
 - [自适应]() （施工中）
-- [BEM 等 CSS 架构]() （施工中）
+- [BEM 等 CSS 架构]() （施工中） -->
 
 ### 设计题 🎩
 
@@ -310,11 +310,11 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 - [策略模式](./topics/design-pattern/strategy.md)
 - [代理模式](./topics/design-pattern/proxy.md)
 - [观察者模式](./topics/design-pattern/observer.md)
-- [适配器模式](./topics/design-pattern/adapter.md)（施工中）
+  <!-- - [适配器模式](./topics/design-pattern/adapter.md)（施工中）
 - [迭代器模式](./topics/design-pattern/iterator.md) （施工中）
 - [工厂模式](./topics/design-pattern/factory.md)（施工中）
 - [模版方法模式](./topics/design-pattern/template.md)（施工中）
-- [装饰者模式](./topics/design-pattern/decorator.md)（施工中）
+- [装饰者模式](./topics/design-pattern/decorator.md)（施工中） -->
 
 ### 框架 🖼️
 
@@ -410,16 +410,16 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 ![network-cover](./assets/imgs/topics/network/network-cover.jpg)
 
 - [协议森林（大话网络协议）](https://www.cnblogs.com/vamei/archive/2012/12/05/2802811.html)
-- [从输入 URL 到页面展示发生了什么]() （施工中）
-  > 上面这个我会写地非常详细，敬请期待
+  <!-- - [从输入 URL 到页面展示发生了什么]() （施工中）
+    > 上面这个我会写地非常详细，敬请期待 -->
 - [输入 ping IP 后敲回车，发包前会发生什么？](./topics/network/ping.md)
 - [网络通讯模型](./topics/network/network-model.md)
 - [子网掩码](./topics/network/net-mask.md)
 - [TCP](./topics/network/tcp.md)
-- [UDP](./topics/network/udp.md)（施工中）
+  <!-- - [UDP](./topics/network/udp.md)（施工中） -->
 - [HTTP](./topics/network/http.md)
 - [HTTPS](./topics/network/https.md)
-- [DNS](./topics/network/dns.md)（施工中）
+  <!-- - [DNS](./topics/network/dns.md)（施工中） -->
 
 如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
 
@@ -447,14 +447,15 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 
 如果你要做全栈或者后端，那么 node 是一个相对平滑的选择
 
-- [node 基础 API](./topics/node/basic.md)（施工中）
+<!-- - [node 基础 API](./topics/node/basic.md)（施工中）
 - [node 集群](./topics/node/cluster.md)（施工中）
 - [node 监控](./topics/node/monitor.md)（施工中）
-- [node 底层架构和原理](./topics/node/internal.md)（施工中）
+- [node 底层架构和原理](./topics/node/internal.md)（施工中） -->
+
 - [Deno (Ryan Dahl 2018 年 11 月台北 JSDC 演讲 PPT 翻译版）](https://zhuanlan.zhihu.com/p/51017778)
 - [What’s Deno, and how is it different from Node.js?](https://blog.logrocket.com/what-is-deno/)
 - [Deno, A New Way to JavaScript?(Vedio)](https://www.youtube.com/watch?v=z6JRlx5NC9E)
-- [express 和 koa 等 web 框架](./topics/node/web-framework.md)（施工中）
+  <!-- - [express 和 koa 等 web 框架](./topics/node/web-framework.md)（施工中） -->
 
 如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
 
@@ -468,7 +469,7 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 - [内存分配](./topics/os/memory/allocation.md)
 - [内存分配](./topics/os/storage/disk.md)
 - [进程间通讯](./topics/os/process/communication.md)
-- [线程和进程](./topics/os/process/thread.md)（施工中）
+  <!-- - [线程和进程](./topics/os/process/thread.md)（施工中） -->
 
 ### 包管理 📦
 
@@ -541,7 +542,7 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 因此 React 或者 Vue 只是解决了状态到视图的映射关系，没有解决数据的产生和维护问题，
 因此状态管理框架应运而生，比较著名的有 redux， mobx，vuex 等。
 
-- [状态管理的本质是什么？我们为什么需要它]() （施工中）
+<!-- - [状态管理的本质是什么？我们为什么需要它]() （施工中） -->
 
 如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
 
@@ -558,7 +559,7 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 包括团队和自身。
 
 - [你的项目难点是什么](./topics/project/pain-in-the-ass.md)
-- [做过的项目中技术架构是什么样的，可以优化么]() （施工中）
+  <!-- - [做过的项目中技术架构是什么样的，可以优化么]() （施工中） -->
 
 ### 安全 🔐
 
@@ -581,8 +582,8 @@ shell 功能强大且移植性好，尤其在运维领域被广泛使用。我�
 
 作为程序员，掌握 shell 是一种进阶。
 
-- [基础命令](./topics/shell/cmds.md)（施工中）
-- [基础语法](./topics/shell/grammar.md)（施工中）
+<!-- - [基础命令](./topics/shell/cmds.md)（施工中）
+- [基础语法](./topics/shell/grammar.md)（施工中） -->
 
 ### ssr
 
@@ -609,9 +610,9 @@ TS 对于构建大型系统有着得天独厚的优势，丰富的类型签名�
 
 > 还没开始整理
 
-- [垃圾回收器](./topics/v8/gc.md)（施工中）
+<!-- - [垃圾回收器](./topics/v8/gc.md)（施工中）
 - [预测优化](./topics/v8/gc.md)（施工中）
-- [shapes 和 inline cache](./topics/v8/shapes-and-inline-cache.md)（施工中）
+- [shapes 和 inline cache](./topics/v8/shapes-and-inline-cache.md)（施工中） -->
 
 ### 标准化
 
@@ -673,9 +674,9 @@ WebRTC 的功能主要有：
 
 当然了解了 webpack 的基本原理还不够，面试中还会问一些工程性的问题，比如：
 
-- [如何用 webpack 管理应用的环境相关配置]() （施工中）
+<!-- - [如何用 webpack 管理应用的环境相关配置]() （施工中）
 - [如何用 webpack 做一些基础的性能优化]()（施工中）
-- [如何用 webpack 的配置项如何管理]()（施工中）
+- [如何用 webpack 的配置项如何管理]()（施工中） -->
 
 #### 触发器
 
@@ -815,7 +816,7 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 ### 编译/转义
 
-- [AST]() （施工中）
+<!-- - [AST]() （施工中） -->
 
 ### 可访问性 ♿
 
@@ -853,8 +854,8 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 - [Python 开发基础 （微软出品）](https://github.com/microsoft/c9-python-getting-started)
 - [Go 语言圣经（英文版）](http://www.gopl.io/)
   > [Go 语言圣经（中文版）](http://shouce.jb51.net/gopl-zh/)
-- [运维知识](./topics/ends/ops.md)（施工中）
-- [Github 和博客](./topics/ends/share.md)（施工中）
+  <!-- - [运维知识](./topics/ends/ops.md)（施工中）
+- [Github 和博客](./topics/ends/share.md)（施工中） -->
 
 上面的东西选择性掌握即可，这可以说是加分项，一般不会要求这些都掌握的。
 
