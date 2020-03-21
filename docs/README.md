@@ -303,7 +303,7 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 
 对于常见的设计模式能够说出适用场景，如果能够结合实际项目经验就更好了。常见的有单例模式，工厂模式，代理模式，观察者模式，策略模式，模板方法模式等。
 
-这里有一份英文系列文章[《JavaScript Design Patterns》](https://wanago.io/2019/11/11/javascript-design-patterns-1-singleton-and-the-module/)，文章的特点是不仅用 JS 还使用 TS 进行了对比讲解，另外紧跟最新技术，比如讲解外观模式的时候就是拿`React Hooks`重构举的例子。
+这里有一份英文系列文章 [《JavaScript Design Patterns》](https://wanago.io/2019/11/11/javascript-design-patterns-1-singleton-and-the-module/)，文章的特点是不仅用 JS 还使用 TS 进行了对比讲解，另外紧跟最新技术，比如讲解外观模式的时候就是拿`React Hooks`重构举的例子。
 
 - [单例模式](./topics/design-pattern/singleton.md)
 - [策略模式](./topics/design-pattern/strategy.md)
@@ -465,6 +465,8 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 ### 操作系统 💻
 
 - [内存分配](./topics/os/memory/allocation.md)
+- [内存分配](./topics/os/storage/disk.md)
+- [进程间通讯](./topics/os/process/communication.md)
 - [线程和进程](./topics/os/process/thread.md)（施工中）
 
 ### 包管理 📦
