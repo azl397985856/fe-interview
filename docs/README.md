@@ -174,7 +174,7 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 - [原型和继承](./topics/js/prototype.md)
 - [this](./topics/js/this.md)
   <!-- - [执行上下文（EC）](./topics/js/EC.md)（施工中）
-- [ES6+](es6+.md)（施工中） -->
+<!-- - [ES6+](es6+.md)（施工中) -->
 
 如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
 
@@ -310,11 +310,11 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 - [策略模式](./topics/design-pattern/strategy.md)
 - [代理模式](./topics/design-pattern/proxy.md)
 - [观察者模式](./topics/design-pattern/observer.md)
-  <!-- - [适配器模式](./topics/design-pattern/adapter.md)（施工中）
-- [迭代器模式](./topics/design-pattern/iterator.md) （施工中）
-- [工厂模式](./topics/design-pattern/factory.md)（施工中）
-- [模版方法模式](./topics/design-pattern/template.md)（施工中）
-- [装饰者模式](./topics/design-pattern/decorator.md)（施工中） -->
+  <!-- - [适配器模式](./topics/design-pattern/adapter.md)（施工中） -->
+  <!-- - [迭代器模式](./topics/design-pattern/iterator.md) （施工中） -->
+  <!-- - [工厂模式](./topics/design-pattern/factory.md)（施工中） -->
+  <!-- - [模版方法模式](./topics/design-pattern/template.md)（施工中） -->
+  <!-- - [装饰者模式](./topics/design-pattern/decorator.md)（施工中 -->
 
 ### 框架 🖼️
 
@@ -853,9 +853,9 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 - [Java 基础学习（廖雪峰）](https://www.liaoxuefeng.com/wiki/1252599548343744)
 - [Python 开发基础 （微软出品）](https://github.com/microsoft/c9-python-getting-started)
 - [Go 语言圣经（英文版）](http://www.gopl.io/)
-  > [Go 语言圣经（中文版）](http://shouce.jb51.net/gopl-zh/)
-  <!-- - [运维知识](./topics/ends/ops.md)（施工中）
-- [Github 和博客](./topics/ends/share.md)（施工中） -->
+- [Go 语言圣经（中文版）](http://shouce.jb51.net/gopl-zh/)
+  <!-- - [运维知识](./topics/ends/ops.md)（施工中） -->
+  <!-- - [Github 和博客](./topics/ends/share.md)（施工中） -->
 
 上面的东西选择性掌握即可，这可以说是加分项，一般不会要求这些都掌握的。
 
