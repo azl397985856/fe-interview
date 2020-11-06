@@ -135,8 +135,14 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的 Job Model 
 其实我自己也维护了一个个人简历的项目，只不过目前只是用来做简历信息同步，没有做深层次的内容，
 我的 github resume 地址：https://github.com/azl397985856/resume
 
-我的个人网站地址： https://lucifer.ren/ ， 我并没有在个人网站放很多文章，根据个人喜好来吧，
-如果你想做的，把个人网站做成主库，然后写文章同步各大平台也是一个非常棒的做法。
+我的个人博客网站： https://lucifer.ren/blog
+
+下面我列举几个我见到的简历上的减分项目，大家可以自己对号入座一下：
+
+- 不要全部都是名词的罗列，要突出你利用你提到的技术名词作了什么
+- 少写和岗位无关的内容，比如参加公益活动， 喜欢打篮球等
+- 如果形象好的可以考虑贴个照片，增加印象分，照片要干净利落。
+- 不要写和自己工作经验不符的内容，比如工作五年了，简历还都是熟悉 HTML，CSS 这种东西，应该多写和自己职级匹配的东西，多写对方希望什么样的人的特质信息。关于这个可以参考我上面的 JOB Model。
 
 ### 自我介绍
 
@@ -150,9 +156,7 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的 Job Model 
 自我介绍最好不是简历的复述，这样会给人不太好的感觉。但是即使是复述，如果
 做到熟练和清晰也是不错的， 因为很多面试官在面试之前根本没有看你的简历。
 
-> 草稿
-
-[如何做自我介绍](./topics/introduction/intro.md)
+- [如何做自我介绍](./topics/introduction/intro.md)
 
 ### JavaScript 🗒️
 
@@ -162,9 +166,7 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 
 > 在学习接下来的东西之前，建议大家先打好基础，这里只推荐两本书，一本是《You-Dont-Know-JS》，另一本是《JavaScript: The Good Parts》。
 
-我非常不建议你没有系统学习 JS 之前就去刷题目，这是毫无意义的，根本无法从根本上理解。
-之后对前端技能的考察会越来越严格。大家系统性学习之后，推荐过来看一下我这里总结的东西，
-最后去网上找一些经典的题目，通过这些题目来检查自己，而不是一开始就去网上找题目做。
+我非常不建议你没有系统学习 JS 之前就去刷题目，这是毫无意义的，根本无法从根本上理解。之后对前端技能的考察会越来越严格。大家系统性学习之后，推荐过来看一下我这里总结的东西，最后去网上找一些经典的题目，通过这些题目来检查自己，而不是一开始就去网上找题目做。
 
 这里列举了几个我觉得比较有代表且比较有意思的主题：
 
@@ -192,23 +194,15 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 
 ### 编程题 ✍️
 
-算法分为三部分：
+算法分为两种：一种是算法题，比如 leetcode 上的那种或者其变形题。另一种是手写题， 比如让你手写 bind 函数等。
 
-- 第一部分是 leetcode 上的题目。
-
-- 第二部分是手写题目，实现一个小功能。比如实现 bind, curry 等
-
-- 第三部分是 leetcode 题目变种
-
-本仓库只列举后两个部分，对于第一部分可以去我的另一个仓库 - [leetcode 题解](https://github.com/azl397985856/leetcode) 查看
+关于算法题，大家可以去我的 [leetcode 题解](https://github.com/azl397985856/leetcode) 查看，手把手教你刷算法。
 
 另外对于不同的阶段，我们应该采取不同的刷题策略。
 
 1. 初级阶段
 
-看一些基础内容，比如数据结构和算法的基本知识，看一些 JS 语言基础的一些东西。
-
-如果需要刷题的话，一定要从简单开始。
+看一些基础内容，比如数据结构和算法的基本知识，看一些 JS 语言基础的一些东西。如果需要刷题的话，一定要从简单开始。
 
 2. 中级
 
@@ -224,12 +218,13 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 
 > ℹ️ 以下这些题目都是自己经历或者从网上整理下来的，之后还会继续同步更新。
 
-对于编程题，可能会让你白板写，也可能让你用 Online Editor。
-因此我的建议，是掌握白板写，熟练至少一种 Online Editor，
-这样可以在适当时候要求面试官让你用你熟悉的 Online Editor 书写。
+对于编程题，可能会让你白板写，也可能让你用 Online Editor。因此我的建议，是掌握白板写，熟练至少一种 Online Editor，这样可以在适当时候要求面试官让你用你熟悉的 Online Editor 书写。
+
 比较有名的 Online Editor 有 JSBin , CodePen, StackBlitz 等，我个人比较推荐 [StackBlitz](https://stackblitz.com/)
 
 > Tips: 如果不是白板写，一定要注意调试，即使没有做出来，但是良好的调试习惯和技能也能加分。
+
+以下是我自己实现的一些经典的手写题，算是比较全了。把这些手写题刷一下， 再跟着我刷 leetcode 基本编程题是拿下了。
 
 - [大数相加](./topics/algorthimn/bigNumberSum.md)
 - [手写 bind](./topics/algorthimn/bind.md)
@@ -267,11 +262,29 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 - [获取页面所有的 tagname](./topics/algorthimn/getAllHTMLTags.md)
 - [实现 XPath](./topics/algorthimn/xpath.md)
 
+### 浏览器
+
+前端和浏览器是分不开的，关于 JS 的宿主环境的理解的重要性是不亚于框架。关于这个话题，我总结了几篇文章给大家。
+
+<img src="./assets/imgs/topics/browser/browser-cover.png" width = "40%" height = "40%" alt="浏览器" align=center />
+
+- [事件模型](./topics/browser/event.md)
+
+- [一文看懂浏览器事件循环](https://lucifer.ren/blog/2019/12/11/event-loop/)
+
+- 浏览器安全策略
+
+- 事件循环
+
+- BOM API
+
+- Chrome 浏览器中的进程和线程
+
 ### CSS 🦋
 
 国外会有一些类似 `CSS/HTML 专家` 的岗位，可以看出这部分内容还是相对比较重要且难以精通的。
 
-这里我推荐 medium 社区的，来自 Elad Shechter 的关于 CSS 架构系列文章：
+我本人对 CSS 不是很精通， 这里给几个资料吧。这里我推荐 medium 社区的，来自 Elad Shechter 的关于 CSS 架构系列文章：
 
 - [Normalize CSS or CSS Reset?!](https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e)
 - [CSS Architecture — Folders & Files Structure](https://medium.com/@elad/css-architecture-folders-files-structure-f92b40c78d0b)
@@ -288,9 +301,11 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 
 ![设计题](./assets/imgs/topics/design/design-cover.jpg)
 
-这类题目有时候是给一个情景，有时候是直接让你实现一个轮子，答案也往往是开放式的。
-需要你对组件和代码设计有一定的基础。这部分主要考察候选人综合实力，思维开放性，
-思维严密性，做事的方式等。
+这类题目有时候是给一个情景，有时候是直接让你实现一个轮子，答案也往往是开放式的。需要你对组件和代码设计有一定的基础。这部分主要考察候选人综合实力，思维开放性，思维严密性，做事的方式等。
+
+这种题目没有很好的应对方式， 唯有自己平时写代码的时候多思考，多重构，并且要充分思考之后再行动，这样才能慢慢锻炼。能力有了，和面试官的互动也是很重要的。
+
+下面我列举了几个我被面试过的几个设计题供大家参考。
 
 - [大量数据滚动加载](./topics/design/lazy-scroll.md)
 - [如何设计一个实时检查更新的功能](./topics/design/auto-update.md)
@@ -306,10 +321,14 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 
 这里有一份英文系列文章 [《JavaScript Design Patterns》](https://wanago.io/2019/11/11/javascript-design-patterns-1-singleton-and-the-module/)，文章的特点是不仅用 JS 还使用 TS 进行了对比讲解，另外紧跟最新技术，比如讲解外观模式的时候就是拿`React Hooks`重构举的例子。
 
+实际上设计模式就是对大家经常碰到的问题进行了最佳实践的总结，并给它起了一个方便记忆的名字。比如我们玩 LOL（一个 5 V 5 游戏），遇到僵局，可以采用四一分推的战术， 队友一说四一分推，大家立马懂了，开始行动起来， 这本质和设计模式没有大的不同。
+
+以下是一些非常常见的设计模式。
+
 - [单例模式](./topics/design-pattern/singleton.md)
 - [策略模式](./topics/design-pattern/strategy.md)
 - [代理模式](./topics/design-pattern/proxy.md)
-- [观察者模式](./topics/design-pattern/observer.md)
+- [观察者模式](./topics/design-pattern/observe.md)
   <!-- - [适配器模式](./topics/design-pattern/adapter.md)（施工中） -->
   <!-- - [迭代器模式](./topics/design-pattern/iterator.md) （施工中） -->
   <!-- - [工厂模式](./topics/design-pattern/factory.md)（施工中） -->
@@ -322,17 +341,17 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 
 流行的框架当然也是兵家必争之地，如果你能够完全了解大型知名开源框架的代码和架构实现，那绝对是一个加分项。
 
-框架是为了解决特定问题才出现的，脱离实际业务谈框架选型以及优劣都是耍流氓。我们需要了解到各个框架在
-什么情况下产生的，他们是为了解决什么问题，适合的场景是什么样的，有什么不足等。只有对这些
-都非常熟悉，才能够在业务中作出合理的取舍，才能赢得面试官的认可。
+框架是为了解决特定问题才出现的，脱离实际业务谈框架选型以及优劣都是耍流氓。我们需要了解到各个框架在什么情况下产生的，他们是为了解决什么问题，适合的场景是什么样的，有什么不足等。只有对这些都非常熟悉，才能够在业务中作出合理的取舍，才能赢得面试官的认可。
+
+我不推荐大家没搞懂 JS 等基础就开始研究框架。大家一定先打牢基础再来搞框架。
+
+这里介绍两个几乎面试必问的两个框架 React 和 Vue，以及其周边。
 
 #### React
 
-React 考察的点就那么几点，从简单的生命周期，特定 API 的使用。 到 SetState 的原理，
-虚拟 DOM，以及 DOM diff 算法等。 这部分需要大家对 React 有系统性认识。
+React 考察的点就那么几点，从简单的生命周期，特定 API 的使用。 到 SetState 的原理，虚拟 DOM，以及 DOM diff 算法等。 这部分需要大家对 React 有系统性认识。
 
-如果你想系统性学习 React，推荐看官网。
-除了官网，我这里推荐一份资料 - [全面介绍 React](https://jscomplete.com/learn/complete-intro-react#managing-side-effects)
+如果你想系统性学习 React，推荐看官网。除了官网，我这里推荐一份资料 - [全面介绍 React](https://jscomplete.com/learn/complete-intro-react#managing-side-effects)
 
 这部分其实可以参考我之前开的一个仓库 [从零开始开发一个 React](https://github.com/azl397985856/mono-react)
 
@@ -341,6 +360,7 @@ React 考察的点就那么几点，从简单的生命周期，特定 API 的使
 如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
 
 - React 的虚拟 DOM diff 算法一定比直接操作 DOM 快么？为什么？
+- React 虚拟 DOM diff 的算法时间复杂度是多少？为什么？
 
 #### Redux
 
@@ -354,27 +374,11 @@ Redux 中核心就是一个单一的 state。state 通过闭包的形式存放�
 
 #### Vue
 
-> vue 部分我建议等到 vue 更新 3.0 之后再去研究 ta。
+> TODO
 
 #### Vuex
 
-> vuex 部分我建议等到 vue 更新 3.0 之后再去研究 ta。
-
-### 浏览器
-
-<img src="./assets/imgs/topics/browser/browser-cover.png" width = "40%" height = "40%" alt="浏览器" align=center />
-
-- [事件模型](./topics/browser/event.md)
-
-- [一文看懂浏览器事件循环](https://lucifer.ren/blog/2019/12/11/event-loop/)
-
-- 浏览器安全策略
-
-- 事件循环
-
-- BOM API
-
-- Chrome 浏览器中的进程和线程
+> TODO
 
 ### 小程序
 
@@ -392,20 +396,16 @@ Redux 中核心就是一个单一的 state。state 通过闭包的形式存放�
 
 ### 原生通信
 
-如果你做过混合式开发的话，原生通信一定是不能绕过的点。
-很多时候我们使用的都是封装好的方法，我们可以直接调用，甚至支持
-Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样方便。
+如果你做过混合式开发的话，原生通信一定是不能绕过的点。很多时候我们使用的都是封装好的方法，我们可以直接调用，甚至支持 Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样方便。
 这从某种程度上来说，扩展了浏览器的功能。
 
 - [h5 与原生 app 交互的原理](https://segmentfault.com/a/1190000016759517)
 
 ### 网络
 
-网络这部分虽然不需要我们像`网络工程师`一样熟悉很多底层细节，
-但是我们至少需要有一个高层次的抽象的思维来看待网络这个世界，
-从而帮助我们更好地理解它，并且利用它去解决一些问题，典型的就是性能优化，
-其实线上定位问题等有时候也需要你懂一点网络知识。
-作为面试，可能需要你准备得更为深入一点。
+网络这部分虽然不需要我们像`网络工程师`一样熟悉很多底层细节，但是我们至少需要有一个高层次的抽象的思维来看待网络这个世界，从而帮助我们更好地理解它，并且利用它去解决一些问题，典型的就是性能优化，
+
+其实线上定位问题等有时候也需要你懂一点网络知识。作为面试，可能需要你准备得更为深入一点。
 
 对于网络这部分，最重要的是要有一个大的概念，下面也会介绍。
 
@@ -444,8 +444,6 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 ### node
 
 <img src="./assets/imgs/topics/node/node-cover.png" alt="node" width="50%" align=center />
-
-> 预计 11 月份开始整理
 
 如果你要做全栈或者后端，那么 node 是一个相对平滑的选择
 
@@ -487,8 +485,7 @@ Promise 这种模式。 使用起来就好像“浏览器的原生 API”一样�
 
 ### 性能优化 ⏩
 
-性能优化是在面试中被问到的最多的题目了，这部分需要候选人有足够的深度和广度才能回答的比较全面，也是
-很容易体现候选人实力的一个点了。
+性能优化是在面试中被问到的最多的题目了，这部分需要候选人有足够的深度和广度才能回答的比较全面，也是很容易体现候选人实力的一个点了。
 
 在互联网网站百花齐放的今天，网站响应速度是用户体验的第一要素，其重要性不言而喻，这里有几个关于响应时间的重要条件：
 
@@ -606,12 +603,22 @@ TS 对于构建大型系统有着得天独厚的优势，丰富的类型签名�
 
 总之 TS 是一个非常值得学习的强类型语言。
 
+下面是我写的 TS 专题，认真读完再配合官方文档，TS 基本稳了。
+
+- [01.上帝视角看 TypeScript](./topics/ts/ts-internal.md)
+- [02.TypeScript 类型系统](./topics/ts/ts-type-system.md)
+- [03.types 和 @types 是什么？](./topics/ts/ts-type.md)
+- [04.你不知道的 TypeScript 泛型（万字长文，建议收藏）](./topics/ts/ts-generics.md)
+- [05.TypeScript 配置文件该怎么写？](./topics/ts/ts-config.md)
+- [06.TypeScript 练习题](./topics/ts/ts-exercises.md)
+- [07.TypeScript 练习题(第二弹)](./topics/ts/ts-exercises-2.md)
+- [08.想去力扣当前端，TypeScript 需要掌握到什么程度？](./topics/ts/leetcode-interview-ts.md)
+
 ### v8
 
 <img src="./assets/imgs/topics/v8/v8-cover.jpg" width = "50%" height = "50%" alt="V8" align=center />
 
-> 还没开始整理
-
+- [垃圾回收](https://felixgerschau.com/javascript-memory-management/)
 <!-- - [垃圾回收器](./topics/v8/gc.md)（施工中）
 - [预测优化](./topics/v8/gc.md)（施工中）
 - [shapes 和 inline cache](./topics/v8/shapes-and-inline-cache.md)（施工中） -->
@@ -695,9 +702,7 @@ linter 是为了帮我我们找出 bug 而存在的，不要过分高估它的�
 
 #### 任务管理
 
-在 npm 出现之前，做任务管理的方式主要是自己处理或者记住第三方库，比如`grunt`，但是 npm 出现之后，
-大家发现其实`npm script` + `构建工具`就可以解决前端绝大多数问题了。包括 VSCODE 中的任务管理，其实
-都有和 npm 有着很好的集成。
+在 npm 出现之前，做任务管理的方式主要是自己处理或者记住第三方库，比如`grunt`，但是 npm 出现之后，大家发现其实`npm script` + `构建工具`就可以解决前端绝大多数问题了。包括 VSCODE 中的任务管理，其实都有和 npm 有着很好的集成。
 
 ![task-runner](./assets/imgs/topics/work-flow/task-runner.jpg)
 
@@ -711,14 +716,12 @@ linter 是为了帮我我们找出 bug 而存在的，不要过分高估它的�
 
 Git，SVN 只是代码管理的工具，不等同于代码管理。
 
-项目代码需要有一个好的架构，需要高内聚低耦合，把各功能模块尽可能的分解成独立的，
-在做真正的代码管路之前，我们要思考几个问题：
+项目代码需要有一个好的架构，需要高内聚低耦合，把各功能模块尽可能的分解成独立的，在做真正的代码管路之前，我们要思考几个问题：
 
 - 我们为什么要做代码管理 ？不做代码管理可以么？
 - 做代码管理，主要的内容是什么？
 
-最后我们再去研究怎么去做，这才是一个本应该有的流程。
-不要一上来就是分支管理，git 操作，git workflow 啥的，会被绕进去，
+最后我们再去研究怎么去做，这才是一个本应该有的流程。不要一上来就是分支管理，git 操作，git workflow 啥的，会被绕进去，
 到头来用工具解决了什么问题都不知道。
 
 参考：
@@ -756,14 +759,12 @@ Git，SVN 只是代码管理的工具，不等同于代码管理。
 
 ### 跨端
 
-跨端开发是一种权衡，一种开发效率和极致性能的权衡。
-就好像虚拟 DOM 一样，虚拟 DOM 其实也是一种权衡，也是开发效率，维护性和极致性能之间的权衡。
+跨端开发是一种权衡，一种开发效率和极致性能的权衡。就好像虚拟 DOM 一样，虚拟 DOM 其实也是一种权衡，也是开发效率，维护性和极致性能之间的权衡。
 如果你足够细心你会发现软件工程有很多这样的权衡。
 
 #### flutter
 
-Flutter 是谷歌的移动 UI 框架，可以快速在 iOS 和 Android 上构建高质量的原生用户界面。
-Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被越来越多的开发者和组织使用，并且 Flutter 是完全免费、开源的。
+Flutter 是谷歌的移动 UI 框架，可以快速在 iOS 和 Android 上构建高质量的原生用户界面。Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被越来越多的开发者和组织使用，并且 Flutter 是完全免费、开源的。
 
 #### RN
 
@@ -828,7 +829,8 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 闭着眼睛使用你的产品，测试看看它是否是"无障碍"的。在无法用眼看无法用鼠标，仅仅通过屏幕阅读软件对界面 的描述去操作你的产品时，人们还能顺利地使用那些呕心沥血做出来的功能吗？
 
 - [开发者必备 — Web 无障碍手册](https://link.zhihu.com/?target=https%3A//www.telerik.com/blogs/web-accessibility-guidebook-for-developers)
-  > 译文地址： https://zhuanlan.zhihu.com/p/76438798
+
+> 译文地址： https://zhuanlan.zhihu.com/p/76438798
 
 ### 新技术 🆕
 
@@ -951,8 +953,7 @@ Flutter 可以与现有的代码一起工作。在全世界，Flutter 正在被�
 
 本仓库的所有内容都是本人自己整理的，因此可能有不够完善，优秀甚至错误的地方，大家可以随意提问题。
 
-对于前端的技能图谱，我比较推荐 [这个网站](https://roadmap.sh/frontend)。
-这个网站相对于其他的前端技能图谱，更新地更快一点，其他的技能图谱很多都落伍了。
+对于前端的技能图谱，我比较推荐 [这个网站](https://roadmap.sh/frontend)。这个网站相对于其他的前端技能图谱，更新地更快一点，其他的技能图谱很多都落伍了。
 
 ## 贡献
 
