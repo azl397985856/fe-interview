@@ -364,6 +364,10 @@ React 考察的点就那么几点，从简单的生命周期，特定 API 的使
 - React 的虚拟 DOM diff 算法一定比直接操作 DOM 快么？为什么？
 - React 虚拟 DOM diff 的算法时间复杂度是多少？为什么？
 
+上面的问题只是冰山一角，社区有很多 React 的问题，比如 [React-Questions](https://github.com/harryheman/React-Questions)。你可以用这些问题来检验自己。
+
+> React-Questions 暂时只有俄语版本，你可以使用翻译软件一键翻译。不过体验肯定不太好，期待翻译吧。
+
 #### Redux
 
 官方给出的介绍是“Redux is a predictable state container for JavaScript apps.”。
@@ -376,7 +380,13 @@ Redux 中核心就是一个单一的 state。state 通过闭包的形式存放�
 
 #### Vue
 
-> TODO
+如果你能自己实现一个 vue ，那么还有什么难道你？我不建议大家漫无目的地看源码。大家可以找一些抓手，比如作者本人的文章，视频质量。
+
+这里推荐一个 vue 作者尤雨溪本身亲自下海讲课，手把手教你实现一个 mini-vue。
+
+地址：https://www.vuemastery.com/courses/vue3-deep-dive-with-evan-you/vue3-overview
+
+B 站有免费视频搬运，大家自己搜索吧。
 
 #### Vuex
 
