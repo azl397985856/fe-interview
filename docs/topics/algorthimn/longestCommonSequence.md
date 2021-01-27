@@ -6,7 +6,7 @@ function longestCommonSequence(s1, s2) {
   const dp = [];
 
   for (let i = 0; i < s1.length + 1; i++) {
-    dp[i] = Array(s2.length).fill(0);
+    dp[i] = Array(s2.length + 1).fill(0);
   }
   for (let i = 1; i < s1.length + 1; i++) {
     for (let j = 1; j < s2.length + 1; j++) {
