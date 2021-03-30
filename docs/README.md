@@ -264,6 +264,10 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 - [实现 XPath](./topics/algorthimn/xpath.md)
 - [数据结构转换](./topics/algorthimn/transformer.md) 🆕
 
+当你刷完这些题，还觉得不过瘾，我推荐你一个**前端刷题** 网站 https://bigfrontend.dev/problem
+
+这个网站不仅有算法题，还有一些设计题，手写编程题，可以满足前端的手写编程面试的需求。
+
 ### 浏览器
 
 前端和浏览器是分不开的，关于 JS 的宿主环境的理解的重要性是不亚于框架。关于这个话题，我总结了几篇文章给大家。
