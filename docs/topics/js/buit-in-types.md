@@ -11,7 +11,7 @@ ES6 又添加了一种基本类型，叫`Symbol`。
 
 > 字符串是不可变的，因此被认为有固定长度。
 
-![buit-in-types](../../assets/imgs/topics/js/buit-in-types.jpg)
+![buit-in-types](https://p.ipic.vip/wrpt5s.jpg)
 
 其实类型指的是值的类型，不是变量的类型，这是动态语言和静态语言的差异。
 对于静态语言来说，我们可以限定一个变量的类型。但是对于 JS 这种动态类型的语言来说，

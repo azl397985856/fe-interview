@@ -1,6 +1,6 @@
 # 大前端面试宝典 - 图解前端
 
-![logo](./assets/imgs/logo.jpg)
+![logo](https://p.ipic.vip/jiysdy.jpg)
 这是一份自己总结的关于准备前端面试的一个复习汇总项目，项目不定时更新。
 
 这不仅仅是一份用于求职面试的攻略，也是一份前端 er 用来检视自己，实现突破的宝典。
@@ -113,7 +113,7 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的 Job Model 
 我在这里画了一个简化版本的 Job Modal，大家可以根据自己的实际情况找自己的目标，
 不同层级需要掌握的深度和广度是不一样的，大家根据自己的实际情况学习。
 
-![job-model](./assets/imgs/topics/job-model/job-model.jpg)
+![job-model](https://p.ipic.vip/qzv454.jpg)
 
 后续我计划会出一份详细的不同级别需要掌握的技能的列表。
 
@@ -146,7 +146,7 @@ Job Model 是 一个很重要的参考标准。 当然每个公司的 Job Model 
 
 ### 自我介绍
 
-![自我介绍](./assets/imgs/topics/introduction/intro-1.jpg)
+![自我介绍](https://p.ipic.vip/n03b65.jpg)
 
 自我介绍是面试的第一个环节，如果表现良好的话不仅会给面试官留下好印象，有利于之后的面试过程，
 而且流畅的自我介绍也可以给自己增加信心，让自己发挥地更好。
@@ -305,7 +305,7 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 
 ### 设计题 🎩
 
-![设计题](./assets/imgs/topics/design/design-cover.jpg)
+![设计题](https://p.ipic.vip/c8n5f1.jpg)
 
 这类题目有时候是给一个情景，有时候是直接让你实现一个轮子，答案也往往是开放式的。需要你对组件和代码设计有一定的基础。这部分主要考察候选人综合实力，思维开放性，思维严密性，做事的方式等。
 
@@ -343,7 +343,7 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 
 ### 框架 🖼️
 
-![框架](./assets/imgs/topics/framework/framework-cover.png)
+![框架](https://p.ipic.vip/x2b8mr.png)
 
 流行的框架当然也是兵家必争之地，如果你能够完全了解大型知名开源框架的代码和架构实现，那绝对是一个加分项。
 
@@ -425,7 +425,7 @@ B 站有免费视频搬运，大家自己搜索吧。
 
 对于网络这部分，最重要的是要有一个大的概念，下面也会介绍。
 
-![network-cover](./assets/imgs/topics/network/network-cover.jpg)
+![network-cover](https://p.ipic.vip/k047ir.jpg)
 
 - [协议森林（大话网络协议）](https://www.cnblogs.com/vamei/archive/2012/12/05/2802811.html)
   <!-- - [从输入 URL 到页面展示发生了什么]() （施工中）
@@ -686,7 +686,7 @@ WebAssembly 是一种可以使用非 JavaScript 编程语言编写代码并且�
 
 Web Realtime Communication（简称 WebRTC），是一种广泛应用在前端的音视频通信技术。事实上，它不仅仅可以用来处理音视频，还可以使用`RTCDataChannel` API 处理别的数据。如今 WebRTC 已经被主流浏览器所支持。
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gb5hv2c15lj30za0h1wh8.jpg)
+![](https://p.ipic.vip/ypcx8o.jpg)
 
 WebRTC 的功能主要有：
 
@@ -731,7 +731,7 @@ linter 是为了帮我我们找出 bug 而存在的，不要过分高估它的�
 
 在 npm 出现之前，做任务管理的方式主要是自己处理或者记住第三方库，比如`grunt`，但是 npm 出现之后，大家发现其实`npm script` + `构建工具`就可以解决前端绝大多数问题了。包括 VSCODE 中的任务管理，其实都有和 npm 有着很好的集成。
 
-![task-runner](./assets/imgs/topics/work-flow/task-runner.jpg)
+![task-runner](https://p.ipic.vip/ohj1wu.jpg)
 
 我们这里主要讲讲如何通过`npm script`来做前端的任务管理，从而打造高效的前端工作流程。
 
@@ -839,7 +839,7 @@ Flutter 是谷歌的移动 UI 框架，可以快速在 iOS 和 Android 上构建
 
 一个典型的微前端系统大概是这样的：
 
-![micro-frontend-cover](./assets/imgs/topics/micro-fe/micro-fe-cover.webp)
+![micro-frontend-cover](https://p.ipic.vip/oswu9t.jpg)
 （图片来自： https://martinfowler.com/articles/micro-frontends.html）
 
 这里后续会系统性列举一些微前端的资料。

@@ -40,19 +40,19 @@ TypeScript 的学习资料非常多，其中也不乏很多优秀的文章和教
 
 如果我们把 Typescript 编译器看成一个黑盒的话。其**输入则是使用 TypeScript 语法书写的文本或者文本集合**。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh5l5pqyw1j304s04wwea.jpg)
+![](https://p.ipic.vip/itohu9.jpg)
 
 （文本）
 
 如果几个文本有引用关系，比如 a.ts 依赖 foo.ts 和 bar.ts，其就是一个文本集合。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh5l7apwnnj30ho09f74h.jpg)
+![](https://p.ipic.vip/idtaa8.jpg)
 
 （文本集合）
 
 **输出是编译之后的 JS 文件 和 .d.ts 的声明文件**。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh5ld0kfitj30ow0csdjs.jpg)
+![](https://p.ipic.vip/cqzzed.jpg)
 
 其中 JS 是将来需要运行的文件，而 .d.ts 声明文件则是 ts 文件中的类型声明，**这个类型声明就是你在 ts 文件中声明的类型和 TypeScript 类型推导系统推导的类型**。当然你也可以自己写 .d.ts 声明文件。
 
@@ -72,7 +72,7 @@ const a: Number = 1;
 
 - 提供了类型操作 API。TypeScript 不但提供内置类型，用户也可以利用集合操作和泛型对类型操作从而生成新的类型。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh5lzqpqirj30d104ogml.jpg)
+![](https://p.ipic.vip/g7v6ag.jpg)
 
 - 对每一种类型的属性和方法都进行了定义。
 
@@ -88,15 +88,15 @@ const a: Number = 1;
 
 上面已经讨论了 TypeScript 编译器的输入和输出。那黑盒内部是怎么工作呢？这里我简单介绍一下：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh5nm8tmokj30dl02zq2s.jpg)
+![](https://p.ipic.vip/32l549.jpg)
 
 - TypeScript 文本首先会被解析为 **token 流**。这个过程比较简单，就是单纯地按照分隔符去分割文本即可。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh5npflqbbj30eh0490sw.jpg)
+![](https://p.ipic.vip/gjqn4o.jpg)
 
 - 接着 token 流会被转换为 AST，也就是**抽象语法树**。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh5nqa41bpj309106lt8z.jpg)
+![](https://p.ipic.vip/at9m6i.jpg)
 
 - binder 则根据 AST 信息生成 **Symbol**（TypeScript 中的一个数据结构）。拿上面的图来说，就是 number 节点。
 - 当我们需要类型检查的时候， checker 会根据**前面生成的 AST 和 symbols 生成类型检查结果**。
@@ -104,7 +104,7 @@ const a: Number = 1;
 
 完整图：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gh5nfcui6sj30xz0gendl.jpg)
+![](https://p.ipic.vip/91it0j.jpg)
 
 ## 总结
 
@@ -134,6 +134,6 @@ const a: Number = 1;
 
 大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的前端硬核文章，带你认识你不知道的前端。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfxro1x125j30oz0dw43s.jpg)
+![](https://p.ipic.vip/hwst9u.jpg)
 
 公众号【 [力扣加加](https://p.ipic.vip/h9nm77.jpg)】知乎专栏【 [Lucifer - 知乎](https://www.zhihu.com/people/lu-xiao-13-70)】

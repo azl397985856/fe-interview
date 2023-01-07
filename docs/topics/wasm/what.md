@@ -8,7 +8,7 @@
 
 Webassembly (缩写为 Wasm)是基于堆栈的虚拟机的二进制指令格式。 Wasm 被设计为编译高级语言(如 c / c + + / Rust)的可移植目标，支持在 web 上部署客户机和服务器应用程序。我们可以这么说，asm.js 就是 wasm 的前身，asm.js 促使浏览器厂商联合起来，统一标准，开发了一套规范，这个规范就是 wasm 规范。 浏览器厂商甚至还成立了 [wasm 社区小组](https://www.w3.org/community/webassembly/)。
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gb5g1ju2rfj30m807ijs9.jpg)
+![](https://p.ipic.vip/blgg3s.jpg)
 
 可以说，Webassembly 是 JS 之后浏览器支持的“新语言”。之前浏览器只能运行 JS 语言，现在多了一个，我们可以直接加载并执行 wasm。wasm 不同于引擎执行的 js，引擎执行的 js 是文本格式，而 wasm 是二进制。
 
@@ -25,7 +25,7 @@ Webassembly (缩写为 Wasm)是基于堆栈的虚拟机的二进制指令格式�
 
 我们以 emscripten 为例，看一下是怎么将 c/c++等生成 wasm 的。
 
-![](https://tva1.sinaimg.cn/large/006tNbRwly1gb5g8lz0ctj30jg06ywew.jpg)
+![](https://p.ipic.vip/ga86ws.jpg)
 
 作者本人给了一个这样的流程图,个人认为非常直观了：
 
@@ -35,7 +35,7 @@ C/C++ ⇒ LLVM ==> LLVM IR ⇒ Emscripten ⇒ asm.js
 
 C/C++ 首先经过 LLVM（比如 clang 等） 变成 LLVM 的中间语言。
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1gb5g8xvvsij30hs0dcdgo.jpg)
+![](https://p.ipic.vip/1y5vjv.jpg)
 
 可以看出 emscripten 理论上可以将任何“能够生成 LLVM IR”的语言转化为 wasm。
 
@@ -60,9 +60,9 @@ function fetchAndInstantiate(url, importObject) {
 
 由于 c/c++ 等语言和 js 差别还是蛮大的。因此必须要做一些限制，js 和 wasm 交互只能使用 TypedArray，整数和浮点数。其中 TypedArray 用于表示指针等复杂数据类型。
 
-![](https://tva1.sinaimg.cn/large/006tNbRwly1gb5giay96zj30m803xmxl.jpg)
+![](https://p.ipic.vip/ohxgah.jpg)
 
-![](https://tva1.sinaimg.cn/large/006tNbRwly1gb5gifketgj30m80hsmyx.jpg)
+![](https://p.ipic.vip/au8mei.jpg)
 
 ## 更多
 

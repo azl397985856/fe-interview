@@ -5,7 +5,7 @@
 
 对于网络通信的任何问题，都要在心里面有下面这个图。
 
-![network-model](../../assets/imgs/topics/network/network-cover.jpg)
+![network-model](https://p.ipic.vip/b7rmzk.jpg)
 
 
 如图是计算机A向计算机B发送消息的过程。A发送的数据

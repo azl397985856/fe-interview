@@ -3,7 +3,7 @@
 代理模式是当调用方不方便直接访问一个对象或者不满足需要的时候，提供一个替身 对象来控制对这个对象的访问。
 调用方实际上访问的是替身对象。替身对象对请求做出一些处理之 后，再把请求转交给本体对象。
 
-![proxy-1](../../assets/imgs/topics/design-pattern/proxy-1.jpg)
+![proxy-1](https://p.ipic.vip/i74wx8.jpg)
 
 ## 应用场景
 
@@ -17,12 +17,12 @@
 
 如下代码只会在id为`img1`的元素出现在视口才会加载图片。
 
-![proxy-3](../../assets/imgs/topics/design-pattern/proxy-3.jpg)
+![proxy-3](https://p.ipic.vip/2h9504.jpg)
 
 
 如果没有出现在视口，是不会加载的：
 
-![proxy-2](../../assets/imgs/topics/design-pattern/proxy-2.jpg)
+![proxy-2](https://p.ipic.vip/lw8v04.jpg)
 
 
 

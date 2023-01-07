@@ -45,13 +45,13 @@ TypeScript 的学习资料非常多，其中也不乏很多优秀的文章和教
 
 TypeScript 一直处于高速的迭代。除了修复日常的 bug 之外，TypeScript 也在不断发布新的功能，比如最新 [4.0.0 beta 版本的**标签元祖**](https://devblogs.microsoft.com/typescript/announcing-typescript-4-0-rc/#labeled-tuple-elements "4.0.0 beta 版本的**标签元祖**") 的功能就对智能提示这块很有用。Typescript 在社区发展方面也做的格外好，以至于它的竞争对手 Flow 被 Typescript 完美击败，这在很大程度上就是因为 Typescript 没有烂尾。如今微软在开源方向的发力是越来越显著了，我很期待微软接下来的表现，让我们拭目以待。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghsqcjsrx9j30xc0b4js3.jpg)
+![](https://p.ipic.vip/l8hs5z.jpg)
 
 ## 变量类型和值类型
 
 有的同学可能有疑问， JavaScript 不是也有类型么？ 它和 Typescript 的类型是一回事么？JavaScript 不是动态语言么，那么经过 Typescript 的限定会不会丧失动态语言的动态性呢？我们继续往下看。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghsqeaxx8jj30pq09qdga.jpg)
+![](https://p.ipic.vip/18eoyq.jpg)
 
 - JavaScript 中的类型其实是值的类型。实际上不仅仅是 JavaScript，任何动态类型语言都是如此，这也是动态类型语言的本质。
 
@@ -70,7 +70,7 @@ a = [];
 
 上面的值是有类型的。比如 1 是 number 类型，"lucifer" 是字符串类型， {} 是对象类型， [] 是数组类型。而变量 a 是没有固定类型的。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghsqh8ere4j30qc0iygmv.jpg)
+![](https://p.ipic.vip/kw2wwn.jpg)
 
 对于 Typescript 来说， 一个变量只能接受和它类型兼容的类型的值。说起来比较拗口， 看个例子就明白了。
 
@@ -85,13 +85,13 @@ b = []; // ok
 
 我们不能将 string 类型的值赋值给变量 a， 因为 string 和 number 类型不兼容。而我们可以将 string,Object,Array 类型的值赋值给 b，因此 它们和 any 类型兼容。简单来说就是，一旦一个变量被标注了某种类型，那么其就只能接受这个类型以及它的子类型。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghsqgexx68j30q80j6ta0.jpg)
+![](https://p.ipic.vip/ejehsp.jpg)
 
 ## 类型空间和值空间
 
 类型和值居住在不同的空间，一个在阳间一个在阴间。他们之间互相不能访问，甚至不知道彼此的存在。类型不能当做值来用，反之亦然。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghsqpfc7uej307b05baa0.jpg)
+![](https://p.ipic.vip/pix24p.jpg)
 
 ### 类型空间
 
@@ -187,7 +187,7 @@ const a: number = 1;
 
 第二个问题， Typescript 提供了诸如 lib.d.ts 等类型库文件。随着 ES 的不断更新， JavaScript 类型和全局变量会逐渐变多。Typescript 也是采用这种 lib 的方式来解决的。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghmyjgyd7qj307o0lxgmq.jpg)
+![](https://p.ipic.vip/qhtuc6.jpg)
 
 （TypeScript 提供的部分 lib）
 
@@ -201,7 +201,7 @@ const a: number = 1;
 
 比如定义 String 类型， 以及其原型上的方法和属性。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghsqk1u3x8j31d60u0q9u.jpg)
+![](https://p.ipic.vip/vbcvwm.jpg)
 
 length， includes 以及 toString 是 String 的**成员变量**， 生活在值空间， 值空间虽然不能直接和类型空间接触，但是类型空间可以作用在值空间，从而给其添加类型（如上图黄色部分）。
 
@@ -310,7 +310,7 @@ TypeScript 已经做到了足够智能了，以至于你不需要写类型，它
 
 大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的前端硬核文章，带你认识你不知道的前端。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfxro1x125j30oz0dw43s.jpg)
+![](https://p.ipic.vip/8mdzak.jpg)
 
 公众号【 [力扣加加](https://p.ipic.vip/h9nm77.jpg)】知乎专栏【 [Lucifer - 知乎](https://www.zhihu.com/people/lu-xiao-13-70)】
 

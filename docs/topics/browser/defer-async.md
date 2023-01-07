@@ -1,1 +1,1 @@
-![defer-async](../../assets/imgs/topics/browser/defer-async.jpg)
+![defer-async](https://p.ipic.vip/w04tqx.jpg)

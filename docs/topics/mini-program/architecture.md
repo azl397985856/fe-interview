@@ -23,18 +23,18 @@ JS 线程我们称之为 service，service 模块负责应用的后台逻辑，
 
 多线程模型的原理图大概是这样的：
 
-![architecture-3](../../assets/imgs/topics/mini-program/architecture-3.jpg)
+![architecture-3](https://p.ipic.vip/znudq5.jpg)
 (图片来自 https://zhuanlan.zhihu.com/p/22754296)
 
 交互通过系统层的 JSBridge 进行，当用户进行操作触发了事件，通过 JSBridge 通知逻辑层，逻辑层执行对应逻辑并把数据通过 JSBridge 传递给视图层，视图层执行相应的操作。
 
-![architecture-1](../../assets/imgs/topics/mini-program/architecture-1.webp)
+![architecture-1](https://p.ipic.vip/0me3w1.jpg)
 （图片来自 https://www.jianshu.com/p/4e8ed26d3b7a）
 
 小程序也会与 CDN 和 web server 进行一些交互，具体为：
 小程序初始化时，先从微信的 CDN 下载小程序的完整的包，然后在微信内部进行解包初始化。
 
-![architecture-2](../../assets/imgs/topics/mini-program/architecture-2.webp)
+![architecture-2](https://p.ipic.vip/2e66r4.jpg)
 （图片来自 https://www.jianshu.com/p/4e8ed26d3b7a）
 
 ## 不足
@@ -43,7 +43,7 @@ json 格式的数据传递和解析相比与原生 API 都是损耗不菲的，�
 
 而支付宝小程序也看到了这一点，他们也做了一些自己的尝试来解决这个问题，主要原理图：
 
-![architecture-4](../../assets/imgs/topics/mini-program/architecture-4.png)
+![architecture-4](https://p.ipic.vip/5f7doh.png)
 (图片来自 https://www.infoq.cn/article/ullETz7q_Ue4dUptKgKC)
 
 感兴趣的可以读一下文末的参考链接

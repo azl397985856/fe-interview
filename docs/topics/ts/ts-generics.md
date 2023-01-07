@@ -24,13 +24,13 @@ categories: [前端, TypeScript, 泛型]
 
 比如：
 
-![容易混淆的箭头函数](https://tva1.sinaimg.cn/large/007S8ZIlly1gfwlko8ermj310x0fx77r.jpg)
+![容易混淆的箭头函数](https://p.ipic.vip/hkzc3s.jpg)
 
 （容易混淆的箭头函数）
 
 再比如：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfwlnifyi5j311j0ao0vw.jpg)
+![](https://p.ipic.vip/p42tz1.jpg)
 
 （容易混淆的 interface 内的小括号）
 
@@ -86,7 +86,7 @@ const personNames = persons.map(p => p.name)
 
 可以看出这都是对具体的值进行编程，**这符合我们对现实世界的抽象**。从集合论的角度上来说， 值的集合就是类型，在 TS 中最简单的用法是对值限定类型，从根本上来说是限定值的集合。这个集合可以是一个具体的集合，也可以是多个集合通过集合运算（交叉并）生成的新集合。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfvq6o3iwcj32960su42q.jpg)
+![](https://p.ipic.vip/jmp1pa.jpg)
 
 （值和类型）
 
@@ -246,11 +246,11 @@ type PartialedPerson = Partial<Person>
 
 先不管功能，我们来看下这两种写法有多像：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfxpuyc9hjj30nf05awhq.jpg)
+![](https://p.ipic.vip/nsywew.jpg)
 
 （定义）
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfxpvjwoktj30od04tgnz.jpg)
+![](https://p.ipic.vip/abq8ux.jpg)
 
 （运行）
 
@@ -276,11 +276,11 @@ type Partial<T> = { [P in keyof T]?: T[P] };
 
 我们来看下完整的泛型和函数有多像！
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfwakdx0mcj30z40cywha.jpg)
+![](https://p.ipic.vip/1ko8du.jpg)
 
 （定义）
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfwam1jg34j30fx0df75m.jpg)
+![](https://p.ipic.vip/2tw8ns.jpg)
 
 （使用）
 
@@ -288,9 +288,9 @@ type Partial<T> = { [P in keyof T]?: T[P] };
 
 - 从语法规则上来看， 函数内部对标的是 ES 标准。而泛型对应的是 TS 实现的一套标准。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfwau8hq65j30yb0ad3zx.jpg)
+![](https://p.ipic.vip/z6lboe.jpg)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfwce290nzj310t0km410.jpg)
+![](https://p.ipic.vip/0bsdij.jpg)
 
 简单来说，将类型看成值，然后对类型进行编程，这就是泛型的基本思想。泛型类似我们平时使用的函数，只不过其是作用在类型上，思想上和我们平时使用的函数并没有什么太多不同，泛型产生的具体类型也支持类型的操作。比如：
 
@@ -316,7 +316,7 @@ function ids<T, U>(arg1: T, arg2: U): [T, U] {
 }
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfz110rqdzj31sm0l278m.jpg)
+![](https://p.ipic.vip/vn841f.jpg)
 
 （泛型的形参）
 
@@ -438,7 +438,7 @@ function trace<T extends Sizeable>(arg: T): T {
 
 ```
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfwflqisraj312a0mijv8.jpg)
+![](https://p.ipic.vip/14m1ed.jpg)
 
 这个时候 T 就不再是任意类型，而是被实现接口的 shape，当然你也可以继承多个接口。**类型约束是非常常见的操作，大家一定要掌握。**
 
@@ -454,7 +454,7 @@ function trace<T extends Sizeable>(arg: T): T {
 
 由于数组理论可以存放任意类型，因此需要使用者动态决定你想存储的数据类型，并且这些类型只有在被调用的时候才能去确定。 `Array<String>` 就是调用，经过这个调用会产生一个具体集合，这个集合只能存放 string 类型的值。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfxqhlaya6j317y0dcgnl.jpg)
+![](https://p.ipic.vip/zjs5d3.jpg)
 
 不调用直接把 Array 是不被允许的：
 
@@ -649,7 +649,7 @@ type PartialedWindow = DeepPartial<Window>; // 现在window 上所有属性都�
 
 截止目前（2020-06-21），TS 提供了 [16 种工具类型](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialt "TS 官方的16 种工具类型")。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfzuu9kjtnj30g80nqmze.jpg)
+![](https://p.ipic.vip/vkhclc.jpg)
 
 （官方提供的工具类型）
 
@@ -733,13 +733,13 @@ const api = <URL extends keyof API>(url: URL): Promise<API[URL]> => {
 
 我们通过泛型以及泛型约束，实现了智能提示的功能。使用效果：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfzwmfvajej30tu04cglu.jpg)
+![](https://p.ipic.vip/zljys0.jpg)
 
 （接口名智能提示）
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfzwn2fovdj313u03egm2.jpg)
+![](https://p.ipic.vip/att5wk.jpg)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfzxwbhc6yj314q05oaaq.jpg)
+![](https://p.ipic.vip/d8qh2f.jpg)
 
 （接口返回智能提示）
 
@@ -755,4 +755,4 @@ const api = <URL extends keyof API>(url: URL): Promise<API[URL]> => {
 
 大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的前端硬核文章，带你认识你不知道的前端。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfxro1x125j30oz0dw43s.jpg)
+![](https://p.ipic.vip/m7v9wc.jpg)

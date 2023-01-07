@@ -41,9 +41,9 @@ TypeScript 的学习资料非常多，其中也不乏很多优秀的文章和教
 
 本文涉及的题目一共十六道，全部都可以在 [typescript-exercises](https://typescript-exercises.github.io/ "typescript-exercises") 上在线提交。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj1sl6j7pij31560p4ad7.jpg)
+![](https://p.ipic.vip/p6p0k4.jpg)
 
-可以和标准答案进行对比。 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj1slk6r7bj31g30o9djp.jpg)
+可以和标准答案进行对比。 ![](https://p.ipic.vip/046maa.jpg)
 
 并且由于使用了浏览器缓存， 因此无需登录的情况下也可以保证关掉页面，你的答题进度也会保留。
 
@@ -254,13 +254,13 @@ startTheApp((e: Error | null) => {
 
 我们还是直接看报错。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjnvjdkj9qj30d70350sy.jpg)
+![](https://p.ipic.vip/0tzfzn.jpg)
 
 很明显这个报错的原因是类型是 unknown， 因此我们只有将 unknown 改成正确的类型即可。
 
 换句话说， 就是把这种地方改成正确类型即可。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjnvkm31ecj30j103o74j.jpg)
+![](https://p.ipic.vip/drcsad.jpg)
 
 题目描述说了， 这个 response 其实是从后端返回的。 而后端返回的数据有固定的格式。比如获取用户列表接口：
 
@@ -282,7 +282,7 @@ type UsersApiResponse =
 
 而成功的情况又会随着接口不同从而可能产生不同的类型。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjoppxyseyj30js0f4t9m.jpg)
+![](https://p.ipic.vip/2oy0d7.jpg)
 
 这是明显的使用 **或逻辑关系** 和**泛型进行类型定义**的强烈信号。我们可以使用泛型做如下改造：
 
@@ -1305,7 +1305,7 @@ export class ObjectManipulator {
 
 首先题目有五个报错位置， 报错信息都是隐式使用了 any ， 因此我们的思路就是将五个地方显式声明类型即可。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjoo6olykmj30es0bbq3u.jpg)
+![](https://p.ipic.vip/u0s4x3.jpg)
 
 从它的名字 ObjectManipulator 以及 api 可以看出， 它应该可以存储任何对象，因此使用泛型定义就不难想到。
 
@@ -1313,7 +1313,7 @@ export class ObjectManipulator {
 
 ObjectManipulator 是一个抽象的包包概念，不是具体的包， 比如当你买一个 LV 的包包的时候就是 `ObjectManipulator<LVBag>`。这样当你往 LV 里放超市买的水果的时候就可以报错：`你怎么可以用 LV 包包装这样东西呢？你应该用 ta 装*`。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjoq7nm6gnj30li0a6761.jpg)
+![](https://p.ipic.vip/u2jj74.jpg)
 
 > 当然这个例子很不严谨， 这个只是帮助大家快速理解而已，切莫较真。
 
@@ -1416,7 +1416,7 @@ export class ObjectManipulator<T> {
 
 经过分析， 我发现它期望的是 set 中的 key 可以不是 T 中的。这一点从官方给的测试用例就可以看出来。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gjoowz893ej30cp040wet.jpg)
+![](https://p.ipic.vip/6g1nqh.jpg)
 
 因此我将代码改成 K 放宽到任意 string，返回值做了一个联合类型。代码：
 
@@ -1488,7 +1488,7 @@ export class ObjectManipulator<T> {
 
 大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的前端硬核文章，带你认识你不知道的前端。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfxro1x125j30oz0dw43s.jpg)
+![](https://p.ipic.vip/v0fbwt.jpg)
 
 公众号【 [力扣加加](https://p.ipic.vip/h9nm77.jpg)】知乎专栏【 [Lucifer - 知乎](https://www.zhihu.com/people/lu-xiao-13-70)】
 

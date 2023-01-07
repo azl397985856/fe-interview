@@ -4,7 +4,7 @@
 
 在说 HTTPS 之前先说说什么是 HTTP，HTTP 就是我们平时浏览网页时候使用的一种协议。HTTP 协议传输的数据都是未加密的，也就是明文的，因此使 用 HTTP 协议传输隐私信息非常不安全。为了保证这些隐私数据能加密传输，于是网景公司设计了 SSL（Secure Sockets Layer）协议用于对 HTTP 协议传输的数据进行加密，从而就诞生了 HTTPS。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gd1wbcnfsnj30eg06bmxe.jpg)
+![](https://p.ipic.vip/xa02lw.jpg)
 
 ## 对称和非对称加密
 
@@ -12,7 +12,7 @@
 
 对加密和解密使用相同密钥的加密算法。由于其速度，对称性加密通常在消息发送方需要加密大量数据时使用。常用的对称加密有：DES、IDEA、RC2、RC4、SKIPJACK 算法等 。采用单钥密码系统的加密方法，同一个密钥可以同时用作信息的加密和解密，这种加密方法称为对称加密，也称为单密钥加密。这就有一个问题，我怎么把密钥传递给对方呢？通过网络么？那在加密之前不还是明文，那岂不是会被轻易破解么？
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gd1wazaihdj30fc09wdgh.jpg)
+![](https://p.ipic.vip/x5av63.jpg)
 
 这个时候非对称加密就要隆重出场了！
 
@@ -43,7 +43,7 @@ config      id_rsa      id_rsa.pub  known_hosts
 
 客户端有公钥，服务器有私钥，客户端用公钥对对称密钥进行加密，将加密后的对称密钥发送给服务器，服务器用私钥对其进行解密，所以客户端和服务器可用对称密钥来进行通信。公钥和私钥是用来加密密钥，而对称密钥是用来加密数据，分别利用了两者的优点。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gd1wbyii62j30je0f2tb0.jpg)
+![](https://p.ipic.vip/bszqxi.jpg)
 
 ## HTTPS 是怎么握手的？
 
@@ -62,7 +62,7 @@ config      id_rsa      id_rsa.pub  known_hosts
 
 5. 浏览器解密并计算握手消息的 HASH，如果与服务端发来的 HASH 一致，此时握手过程结束，之后所有的通信数据将由之前浏览器生成的随机密码并利用对称加密算法进行加密。
 
-![](https://tva1.sinaimg.cn/large/00831rSTly1gd1wcaryx8j30i30lf0um.jpg)
+![](https://p.ipic.vip/911ipu.jpg)
 
 从上面可以看到，握手的整个过程使用到了数字证书、对称加密、HASH 摘要，非对称加密算法。
 

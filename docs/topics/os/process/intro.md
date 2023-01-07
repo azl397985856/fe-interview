@@ -8,7 +8,7 @@ Linux进程结构：可由三部分组成：代码段、数据段、堆栈段。
 也就是程序、数据、进程控制块PCB（Process Control Block）组成。
 进程控制块是进程存在的惟一标识，系统通过PCB的存在而感知进程的存在。
 
-![进程的内存图](https://img-blog.csdn.net/20150819191454004?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+![进程的内存图](https://p.ipic.vip/sbaxf0.png)
 
 
 进程是资源分配的最小单位，线程是CPU调度的最小单位。

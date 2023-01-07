@@ -30,7 +30,7 @@
 
 如图所示：
 
-![XPath](../../assets/imgs/topics/algorthimn/XPath.jpg)
+![XPath](https://p.ipic.vip/zkqw0h.jpg)
 
 整个过程是：
 

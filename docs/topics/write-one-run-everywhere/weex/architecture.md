@@ -9,7 +9,7 @@
 
 weex的整体结构图如图所示：
 
-![architecture-1](../../../assets/imgs/topics/write-one-run-everywhere/weex/architecture-1.jpg)
+![architecture-1](https://p.ipic.vip/v8y3h8.jpg)
 
 
 整体我们可以把它分成两部分，一部分是我们写的Vue代码，经过打包之后变成可以在

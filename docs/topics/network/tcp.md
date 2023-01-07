@@ -24,7 +24,7 @@
 
 发送完毕后，客户端进入 ESTABLISHED 状态，当服务器端接收到这个包时，也进入 ESTABLISHED 状态，TCP 握手结束。
 
-![来自https://hit-alibaba.github.io/interview/basic/network/TCP.html](https://raw.githubusercontent.com/HIT-Alibaba/interview/master/img/tcp-connection-made-three-way-handshake.png)
+![来自https://hit-alibaba.github.io/interview/basic/network/TCP.html](https://p.ipic.vip/pgr4hb.png)
 
 (来自https://hit-alibaba.github.io/interview/basic/network/TCP.html)
 
@@ -61,7 +61,7 @@ TCP 的连接的拆除需要发送四个包，因此称为四次挥手(Four-way 
 
 客户端等待了某个固定时间（两个最大段生命周期，2MSL，2 Maximum Segment Lifetime）之后，没有收到服务器端的 ACK ，认为服务器端已经正常关闭连接，于是自己也关闭连接，进入 CLOSED 状态。
 
-![https://raw.githubusercontent.com/HIT-Alibaba/interview/master/img/tcp-connection-closed-four-way-handshake.png](https://raw.githubusercontent.com/HIT-Alibaba/interview/master/img/tcp-connection-closed-four-way-handshake.png)
+![https://raw.githubusercontent.com/HIT-Alibaba/interview/master/img/tcp-connection-closed-four-way-handshake.png](https://p.ipic.vip/la2w5r.png)
 
 (图片来自https://hit-alibaba.github.io/interview/basic/network/TCP.html)
 

@@ -8,7 +8,7 @@ categories:
 
 2018 年底的时候，力扣发布了岗位招聘，其中就有前端，仓库地址：https://github.com/LeetCode-OpenSource/hire 。与大多数 JD 不同， 其提供了 5 道题， 并注明了`完成一个或多个面试题，获取免第一轮面试的面试机会。完成的题目越多，质量越高，在面试中的加分更多。完成后的代码可以任意形式发送给 jobs@lingkou.com。以上几个问题完成一个或多个都有可能获得面试机会，具体情况取决于提交给我们的代码。`
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ggfv55mufyj30u00wh0z0.jpg)
+![](https://p.ipic.vip/nwasbv.jpg)
 
 （力扣中国前端工程师 JD）
 
@@ -137,7 +137,7 @@ type Connected = {
 
 上文提到的`index.ts` 比 题目描述多了两个语句，它们分别是：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ggfvu17znfj30u80eiad2.jpg)
+![](https://p.ipic.vip/ei0flo.jpg)
 
 （题目额外信息）
 
@@ -228,7 +228,7 @@ type ADDTodoKey = PickFuncKeys<Todo>; // 'addTodo'
 
 我们再来回顾一下题目要求：
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ggfy6bz4prj31mo0b8goj.jpg)
+![](https://p.ipic.vip/hehirp.jpg)
 
 也就是我们需要知道**怎么才能提取 Promise 和 Action 泛型中的值**。
 
@@ -334,7 +334,7 @@ type Connect = (module: EffectModule) => ExtractContainer<EffectModule>
 
 大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的前端硬核文章，带你认识你不知道的前端。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfxro1x125j30oz0dw43s.jpg)
+![](https://p.ipic.vip/56h69m.jpg)
 
 知乎专栏【 [Lucifer - 知乎](https://www.zhihu.com/people/lu-xiao-13-70 " Lucifer - 知乎")】
 

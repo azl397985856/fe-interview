@@ -22,7 +22,7 @@ foo();
 
 我们来看下这段代码。 这段代码在 JS 引擎执行的时候究竟发生了什么？ 这里我画了个图：
 
-![scope&closures](../../assets/imgs/topics/js/scope&closures-1.jpg)
+![scope&closures](https://p.ipic.vip/30i99z.jpg)
 
 如上图，左边部分是编译器。 右半部分是作用域链。上述代码执行的具体过程大概是：
 
@@ -83,7 +83,7 @@ func(); // 'closures'
 
 为什么呢？ 这和上面的说的好像不太一样？ 不，是一样的。我同样画了一个图：
 
-![scope&closures-2](../../assets/imgs/topics/js/scope&closures-2.jpg)
+![scope&closures-2](https://p.ipic.vip/l4ig8d.jpg)
 
 说的直白一点就是foo返回的函数`记住了ta被定义的时候的作用域`，因此你可以访问到foo里面定义的变量。
 看起来好像是`突破了作用域的限制`，我们称之为`可观察`的闭包。

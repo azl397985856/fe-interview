@@ -6,12 +6,12 @@
 其实就是用来告诉主机有哪些ip地址是跟自己在同一个广播域里，广播地址又是什么，
 当主机与同一个广播域里的其他主机通讯时就可以直接通讯，如果不在同一个广播域里，就发给默认网关。
 
-![net-mask](../../assets/imgs/topics/network/net-mask-1.jpg)
+![net-mask](https://p.ipic.vip/fzwm6n.jpg)
 
 (同一逻辑子网的情况)
 
 
-![net-mask](../../assets/imgs/topics/network/net-mask-2.jpg)
+![net-mask](https://p.ipic.vip/dxnvb1.jpg)
 
 (不同逻辑子网的情况)
 
@@ -29,12 +29,12 @@
 A会先进行两次与运算，分别是`192.168.1.10`和`255.255.255.192`， `192.168.1.20` 和 `255.255.255.192`，
 得到的结果都是`192.168.1.0`,因此在一个子网中，我们通过ARP广播即可。
 
-![net-mask](../../assets/imgs/topics/network/net-mask-3.jpg)
+![net-mask](https://p.ipic.vip/umoyv3.jpg)
 
 如果A要给ip地址为`192.168.1.200`的主机发送消息。A同样会先进行两次与运算，分别是`192.168.1.10`和`255.255.255.192`， `192.168.1.200` 和 `255.255.255.192`，
 得到的结果不一样,因此在不在一个子网中，我们通过默认网关发送即可。
 
-![net-mask](../../assets/imgs/topics/network/net-mask-4.jpg)
+![net-mask](https://p.ipic.vip/ihdu3s.jpg)
 
 
 

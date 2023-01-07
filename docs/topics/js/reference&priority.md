@@ -36,7 +36,7 @@ var b = a;
 
 内存图如图所示：
 
-![reference&priority-1](../../assets/imgs/topics/js/reference&priority-1.jpg)
+![reference&priority-1](https://p.ipic.vip/3svt3l.jpg)
 
 
 然后，我们将下面代码拆解为:
@@ -53,7 +53,7 @@ a.x = { x: 1 };
 ```
 的时候，内存是这样的：
 
-![reference&priority-2](../../assets/imgs/topics/js/reference&priority-2.jpg)
+![reference&priority-2](https://p.ipic.vip/abx0vp.jpg)
 
 
 最后，当执行到：
@@ -63,7 +63,7 @@ a = a.x;
 ```
 的时候，内存图如下：
 
-![reference&priority-3](../../assets/imgs/topics/js/reference&priority-3.jpg)
+![reference&priority-3](https://p.ipic.vip/dvyrtk.jpg)
 
 如果这里看明白了，那么答案就呼之欲出了。
 

@@ -41,9 +41,9 @@ TypeScript 的学习资料非常多，其中也不乏很多优秀的文章和教
 
 本文涉及的题目一共十五道，全部都可以在 [typescript-exercises](https://typescript-exercises.github.io/ "typescript-exercises") 上在线提交。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj1sl6j7pij31560p4ad7.jpg)
+![](https://p.ipic.vip/n31s4e.jpg)
 
-可以和标准答案进行对比。 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj1slk6r7bj31g30o9djp.jpg)
+可以和标准答案进行对比。 ![](https://p.ipic.vip/yxu51k.jpg)
 
 并且由于使用了浏览器缓存， 因此无需登录的情况下也可以保证关掉页面，你的答题进度也会保留。
 
@@ -201,7 +201,7 @@ persons.forEach(logPerson);
 
 我们直接从报错入手。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj1xl8b8exj30ph0bhgmp.jpg)
+![](https://p.ipic.vip/7ok4s7.jpg)
 
 不难发现 persons 数组既有 User 又有 Admin。 因此 person 的函数签名应该是两者的联合类型。而题目又让我们补充 Person，于是代码将 Person 定义为 Admin 和 User 的联合类型就不难想到。
 
@@ -421,7 +421,7 @@ persons.filter(isUser).forEach(logPerson);
 
 我们仍然从报错入手。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj1zgdvcxxj30n608cta2.jpg)
+![](https://p.ipic.vip/82yfpx.jpg)
 
 实际上还是 person 的类型问题， 没有被收缩到正确的类型。看题目的代码，期望效果应该是`如果进入 isAdmin 内部，那么 person 就是 Admin 类型，同理进入 isUser 内部，那么 person 就是 User 类型。`
 
@@ -585,7 +585,7 @@ filterUsers(persons, {
 
 老规矩， 从报错入手。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj1zotdia3j30q105xwf5.jpg)
+![](https://p.ipic.vip/ylalyz.jpg)
 
 大概意思是 { age: 23 } 不完整，缺失了部分 key。而题目实际上的想法应该是想根据部分内容对人员进行检错。比如可以根据 age 查， 也可以根据 name 查，也可以同时根据 age 和 name 查等，这和我们平时的搜索逻辑是一致的。
 
@@ -710,7 +710,7 @@ adminsOfAge23.forEach(logPerson);
 
 题目描述也懒得看了， 直接看报错。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj1zvhq5vpj30xq0am40w.jpg)
+![](https://p.ipic.vip/rq68ns.jpg)
 
 报错信息提示我们没有找到合适的函数重载。 因此我的思路就是补上合适的重载即可。关于函数重载，我的系列教程不涉及，大家可以看下官网资料。
 
@@ -868,7 +868,7 @@ function test5() {
 
 题目废话很多， 直接忽略看报错。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gj201q6ov0j30i104i74m.jpg)
+![](https://p.ipic.vip/er9veg.jpg)
 
 这个其实我在 [你不知道的 TypeScript 泛型（万字长文，建议收藏）](https://lucifer.ren/blog/2020/06/16/ts-generics/) 里也讲过了，直接看代码。
 
@@ -1022,7 +1022,7 @@ type PowerUser = Omit<User & Admin, "type"> & { type: "powerUser" };
 
 大家也可以关注我的公众号《脑洞前端》获取更多更新鲜的前端硬核文章，带你认识你不知道的前端。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfxro1x125j30oz0dw43s.jpg)
+![](https://p.ipic.vip/9133yd.jpg)
 
 公众号【 [力扣加加](https://p.ipic.vip/h9nm77.jpg)】知乎专栏【 [Lucifer - 知乎](https://www.zhihu.com/people/lu-xiao-13-70)】
 
