@@ -32,7 +32,7 @@ function bigNumberSum(a, b) {
   let carried = 0;
   const res = [];
 
-  for (let i = a.length - 1; i > -1; i--) {
+  for (let i = cur.length - 1; i > -1; i--) {
     const sum = carried + +a[i] + +b[i];
     if (sum > 9) {
       carried = 1;
