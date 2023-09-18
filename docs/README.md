@@ -42,7 +42,7 @@
 
 ## 每日一题
 
-[每日一题汇总](./daily/)
+[每日一题汇总](./daily/README)
 
 ## 模拟面试记录
 
@@ -175,7 +175,7 @@ JavaScript 是前端基础中的基础了，这里的面试题目层出不穷，
 - [引用和操作符优先级](./topics/js/reference&priority.md)
 - [原型和继承](./topics/js/prototype.md)
 - [this](./topics/js/this.md)
-  <!-- - [执行上下文（EC）](./topics/js/EC.md)（施工中）
+ <!-- - [执行上下文（EC）](./topics/js/EC.md)（施工中） -->
 <!-- - [ES6+](es6+.md)（施工中) -->
 
 如果上面的专题你都看过了，那么来回答几个问题看你是否真的掌握了。
@@ -991,7 +991,7 @@ Flutter 是谷歌的移动 UI 框架，可以快速在 iOS 和 Android 上构建
 - 项目刚刚创建，个人精力有限。再加上有些东西我本人也不是很精通，因此邀请各路仙友加入到这个项目中来，欢迎大家认领相应的模块，当然也可以添加新的模块。
 - 如果有想法和创意，请提 [issue](https://github.com/azl397985856/fe-interview/issues) 或者进群提
 - 如果想贡献代码，请提 [PR](https://github.com/azl397985856/fe-interview/pulls)
-- 如果需要修改项目中图片，[这里](./assets/drawio/) 存放了项目中绘制图的源代码， 大家可以用 [draw.io](https://www.draw.io/) 打开进行编辑。
+- 如果需要修改项目中图片，[这里](https://github.com/azl397985856/fe-interview/tree/master/docs/assets/drawio/topics) 存放了项目中绘制图的源代码， 大家可以用 [draw.io](https://www.draw.io/) 打开进行编辑。
 
 ## License
 

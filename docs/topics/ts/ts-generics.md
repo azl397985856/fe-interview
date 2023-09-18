@@ -164,7 +164,7 @@ id(null).toString(); // ok
 
 为了解决上面的这些问题，我们**使用泛型对上面的代码进行重构**。和我们的定义不同，这里用了一个 类型 T，这个 **T 是一个抽象类型，只有在调用的时候才确定它的值**，这就不用我们复制粘贴无数份代码了。
 
-```js
+```ts
 function id<T>(arg: T): T {
   return arg;
 }
@@ -266,7 +266,7 @@ interface Person {
 
 > 功能和上面新建一个新的 interface 一样，但是更优雅。
 
-最后来看下泛型 Partial<Type> 的具体实现，可以看出其没有直接使用 JS 的语法，而是自己定义了一套语法，比如这里的 `keyof`，至此完全应证了我上面的观点。
+最后来看下泛型 `Partial<Type>` 的具体实现，可以看出其没有直接使用 JS 的语法，而是自己定义了一套语法，比如这里的 `keyof`，至此完全应证了我上面的观点。
 
 ```ts
 type Partial<T> = { [P in keyof T]?: T[P] };
@@ -351,7 +351,7 @@ type Lucifer<T> = LeetCode<T>;
 
 ## 泛型为什么使用尖括号
 
-为什么泛型要用尖括号（<>），而不是别的？ 我猜是因为它和 () 长得最像，且在现在的 JS 中不会有语法歧义。但是，它和 JSX 不兼容！比如：
+为什么泛型要用尖括号（`<>`），而不是别的？ 我猜是因为它和 () 长得最像，且在现在的 JS 中不会有语法歧义。但是，它和 JSX 不兼容！比如：
 
 ```tsx
 function Form() {
@@ -386,7 +386,7 @@ class MyComponent extends React.Component<Props, State> {
 
 (类泛型)
 
-总结下就是： 泛型的写法就是在标志符后面添加尖括号（<>），然后在尖括号里写形参，并在 body（函数体， 接口体或类体） 里用这些形参做一些逻辑处理。
+总结下就是： 泛型的写法就是在标志符后面添加尖括号（`<>`），然后在尖括号里写形参，并在 body（函数体， 接口体或类体） 里用这些形参做一些逻辑处理。
 
 ## 泛型的参数类型 - “泛型约束”
 
@@ -418,7 +418,7 @@ function trace<T>(arg: T): T {
 
 > 注意：不同 TS 版本可能提示信息不完全一致，我的版本是 3.9.5。下文的所有测试结果均是使用该版本，不再赘述。
 
-```js
+```ts
 function trace<T>(arg: T): T {
   console.log(arg.size); // Error: Property 'size doesn't exist on type 'T'
   return arg;
@@ -464,7 +464,7 @@ const a: Array = ["1"];
 
 如上代码会被错：`Generic type 'Array<T>' requires 1 type argument(s).ts` 。 有没有觉得和函数调用没传递参数报错很像？像就对了。
 
-这个时候你再去看 Set<number>， Promise<string>，是不是很快就知道啥意思了？它们本质上都是包装类型，并且支持多种参数类型，因此可以用泛型来约束。
+这个时候你再去看 `Set<number>`， `Promise<string>`，是不是很快就知道啥意思了？它们本质上都是包装类型，并且支持多种参数类型，因此可以用泛型来约束。
 
 ### React.FC
 
@@ -554,7 +554,7 @@ const bb: A = ["1"]; // ok
 const cc: A<number> = [1]; // ok
 ```
 
-上面的 A 类型默认是 string 类型的数组。你可以不指定，等价于 Array<string>，当然你也可以显式指定数组类型。有一点需要注意：在 JS 中，函数也是值的一种，因此:
+上面的 A 类型默认是 string 类型的数组。你可以不指定，等价于 `Array<string>`，当然你也可以显式指定数组类型。有一点需要注意：在 JS 中，函数也是值的一种，因此:
 
 ```js
 const fn = () => null; // ok
@@ -562,7 +562,7 @@ const fn = () => null; // ok
 
 但是泛型这样是不行的，这是和函数不一样的地方（设计缺陷？Maybe）：
 
-```js
+```ts
 type A = Array; // error: Generic type 'Array<T>' requires 1 type argument(s).
 ```
 

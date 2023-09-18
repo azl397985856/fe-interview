@@ -1,0 +1,23 @@
+.Layout.fe-interview-layout {
+  .VPDocAsideOutline {
+    a.outline-link {
+      display: inline-block;
+      &.active {
+        color: var(--vp-c-brand-1);
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .VPContent {
+    .VPHome {
+      @media (min-width: 640px) {
+        .container .name {
+          max-width: 666px;
+        }
+      }
+    }
+  }
+}

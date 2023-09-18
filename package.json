@@ -1,8 +1,14 @@
 {
   "devDependencies": {
-    "docsify-cli": "^4.3.0"
+    "docsify-cli": "^4.3.0",
+    "less": "^4.2.0",
+    "vitepress": "1.0.0-rc.14",
+    "vue": "^3.3.4"
   },
   "scripts": {
-    "doc": "docsify serve ./docs"
+    "doc": "docsify serve ./docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   }
 }
